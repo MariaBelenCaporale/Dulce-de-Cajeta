@@ -588,7 +588,7 @@ a {
 
 /*-------- responsive --------*/
 
-@media only screen and (max-width:576px) {
+@media only screen and (max-width:480px) {
     .orden {
         font-size: 15px;
     }

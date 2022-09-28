@@ -225,7 +225,7 @@ span {
 }
 
 /*-------- responsive --------*/
-@media only screen and (max-width:576px) {
+@media only screen and (max-width:480px) {
 
     .zoe {
         display: none;
@@ -256,7 +256,7 @@ span {
 
 
 
-@media only screen and (min-width:577px) and (max-width:768px) {
+@media only screen and (min-width:481px) and (max-width:768px) {
 
     .tipo-zoe {
         width: 500px;

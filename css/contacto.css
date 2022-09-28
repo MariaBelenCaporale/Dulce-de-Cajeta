@@ -274,7 +274,7 @@ a {
 
 /*-------- responsive --------*/
 
-@media only screen and (max-width:576px) {
+@media only screen and (max-width:480px) {
 
     .comentario {
         grid-row: 1/4;
@@ -293,7 +293,7 @@ a {
     }
 }
 
-@media only screen and (min-width:577px) and (max-width:768px) {
+@media only screen and (min-width:481px) and (max-width:768px) {
 
     .footer-container p {
         grid-row: 1/4;

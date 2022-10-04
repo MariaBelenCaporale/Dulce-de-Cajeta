@@ -16,10 +16,9 @@
 
 
 <body>
-  </header>
 
   <header>
-    <nav class="navbar navbar-expand-lg bg-dark menu">
+    <nav class="navbar navbar-expand-lg menu">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,14 +45,33 @@
         </div>
       </div>
     </nav>
-
-    <!------- CARRUSEL ------->
-    <div class="banner">
-      <h5>TE INVITAMOS A CONOCER ARGENTINA</h5>
-      <img src="../Dulce-de-cajeta/img/lugar-3.jpeg" class="img-fluid" alt="...">
-    </div>
   </header>
-
+    <!------- CARRUSEL ------->
+  
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <h5>TE INVITAMOS A RECORRER ARGENTINA</h5>
+        <img src="./img/lugar.jpeg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <h5>TE INVITAMOS A RECORRER ARGENTINA</h5>
+        <img src="./img/lugar-3.jpeg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <h5>TE INVITAMOS A RECORRER ARGENTINA</h5>
+        <img src="./img/lugar.jpeg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
   <!--------------------- fin carrusel ------------------->
   <!--------------------- contador ------------------->
 
@@ -85,10 +103,8 @@
     </div>
     <div class="titulo-a">
       <h2 data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">EXPLORÁ</h2>
-      <p data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">Esta imagen es un carrusel <br> <br> Lorem
-        ipsum dolor sit amet consectetur, adipisicing elit. Accusantium voluptates quidem unde cumque exercitationem
-        optio repudiandae dolor! Optio, laborum quos minus vero earum magni quidem atque maiores, quisquam iusto
-        doloremque?</p>
+      <p data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+        Te invitamos a conocer Argentina!. No solo los lugares más emblemáticos de cada lugar, si no, que además de sus capitales y principales lugares turísticos, te vamos a llegar a esos rinconcitos, que solo la gente del lugar o pocos conocen.</p>
       <a data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" class="zoe-boton"
         href="../Dulce-de-cajeta/sitio/DESTINOS.html" role="button">Explorá</a>
     </div>
@@ -111,9 +127,7 @@
     </div>
     <div class="tipo-nos">
       <h2 data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">SOBRE NOSOTRAS</h2>
-      <p data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Doloremque, laudantium expedita fugiat delectus enim beatae error dolores! Ex eligendi et quam
-        saepe cumque atque nulla, possimus esse officiis, exercitationem.</p>
+      <p data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">Hola!, somos delfi y belu. Hace un año y 4 meses, decidimos soltar todo, y comenzar esta aventura. Tenemos muchos planes a futuro, pero el principal hoy, es mostrarles toda la Argentina</p>
       <a data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" class="nosotras-boton"
         href="../Dulce-de-cajeta/sitio/NOSOTRAS.html" role="button">Conocenos</a>
     </div>
@@ -135,11 +149,9 @@
 
     <div class="tipo-zoe">
       <h2 data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">VIAJÁ CON TU PERRO</h2>
-      <p data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Doloremque, laudantium expedita fugiat delectus enim beatae error dolores! Ex eligendi et quam
-        saepe cumque atque nulla, possimus esse officiis, exercitationem.</p>
+      <p data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">Hola! soy Zoë y soy una perrita viajera. Mis mamás me estuvieron entrenando desde chiquita, aunque varias cosas las saqué sola. Si vos también tenes un perrit@, ingresá acá y te cuento lo fácil que puede ser llevarlo con vos.</p>
       <a data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" class="zoe-boton"
-        href="../Dulce-de-cajeta/sitio/viajacontuperro.html" role="button">Tips!</a>
+        href="../Dulce-de-cajeta/sitio/viajacontuperro.html" role="button">Zoë tips!</a>
     </div>
 
     <div class="flecha-1">
@@ -154,16 +166,18 @@
   <!------------------- FORMULARIO --------------------------->
   <section id="contacto-a" class="form-registro">
     <h2 data-aos="fade-up">CONTACTO</h2>
-
+    <div data-aos="fade-up" class="mas-info">
+    <p>Si querés tener mayor info sobre algún lugar, o cualquiera sea tu consulta, no dudes en escribirnos!</p>
+  </div>
     <div data-aos="fade-up" class="inputBox">
       <input type="text" required="required">
-      <span>Nombre</span>
+      <span>Tu nombre</span>
       <i></i>
     </div>
 
     <div data-aos="fade-up" class="inputBox">
       <input type="text" required="required">
-      <span>Apellido</span>
+      <span>Contanos!</span>
       <i></i>
     </div>
     <a data-aos="fade-up" class="nos-boton" href="#" role="button">Enviar</a>

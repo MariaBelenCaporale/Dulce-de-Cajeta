@@ -24,6 +24,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+
 header {
     grid-auto-rows: auto;
     grid-template-columns: 50% 50%;
@@ -38,13 +39,23 @@ header {
     display: inline-grid;
 }
 
+.navbar {
+    z-index: 1;
+    margin-top: 30px;
+}
+
+.navbar-nav {
+    gap: 90px;
+}
+
 .control {
-    color: #EAEAEA;
+    color: #0e0f11;
 }
 
 .control:hover {
     color: #ff1b60;
 }
+
 
 #nosotras-a {
     background-color: #17181b;

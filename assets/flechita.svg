@@ -1,19 +1,9 @@
-<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 255.03 255.03">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #252a34;
-      }
-
-      .cls-2 {
-        fill: none;
-        stroke: #eaeaea;
-        stroke-linecap: round;
-        stroke-linejoin: round;
-        stroke-width: 14.58px;
-      }
-    </style>
-  </defs>
-  <circle class="cls-1" cx="127.51" cy="127.51" r="127.51"/>
-  <polyline class="cls-2" points="183.74 158.61 127.51 89.52 71.29 158.61"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 255.03 255.03" style="enable-background:new 0 0 255.03 255.03;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#EAEAEA;stroke-width:14.58;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<polyline class="st0" points="183.74,158.61 127.51,89.52 71.29,158.61 "/>
 </svg>

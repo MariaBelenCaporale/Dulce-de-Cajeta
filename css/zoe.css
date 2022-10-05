@@ -22,7 +22,6 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-
 header {
     grid-auto-rows: auto;
     grid-template-columns: 50% 50%;
@@ -30,20 +29,30 @@ header {
 }
 
 .menu {
-        width: 100%;
-        position: absolute;
-        align-items: center;
-        justify-content: center;
-        display: inline-grid;
+    width: 100%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: inline-grid;
+}
+
+.navbar {
+    z-index: 1;
+    margin-top: 30px;
+}
+
+.navbar-nav {
+    gap: 90px;
 }
 
 .control {
-    color: #EAEAEA;
-    }
+    color: #0e0f11;
+}
 
-    .control:hover {
-        color: #ff1b60;
-    }
+.control:hover {
+    color: #ff1b60;
+}
+
 
 
 /*------------- INICIO iconos ------------*/

@@ -53,31 +53,64 @@ header {
     color: #ff1b60;
 }
 
+/*-------banner-------*/
+.banner-zoe-a {
+    display: flex;
+    overflow: hidden;
+    height: 77vh;
+}
 
+.img-fluid {
+    width: 100%;
+    height: 93vh;
+}
+/*-----------*/
 
 /*------------- INICIO iconos ------------*/
 .contador-iconos {
-    grid-template-columns: 100%;
-    display: grid;
-    height: 300px;
     background-color: #17181b;
 }
 
-.iconos{
-    display: grid;
+.iconos {
+    padding-bottom: 30px;
+    gap: 193px;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    justify-items: center;
-    color: #EAEAEA;
-    font-size: 40px;
+    height: 187px;
+}
+.iconos img {
+    width: 102px;
+    padding-top: 56px;
 }
 
+.orden {
+    height: 121px;
+    width: 121px;
+    background-color: white;
+    flex-direction: column-reverse;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.orden p {
+    padding-top: 17px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.orden:hover {
+    color: #ff1b60;
+}
 
 /*------------- INICIO GALERIA ------------*/
 
 .zoe-container {
+    height: 100vh;
     padding: 70px 0 70px 0;
     background-color: black;
-
     justify-items: center;
     align-items: center;
     overflow: hidden;
@@ -87,9 +120,11 @@ header {
 }
 
 .zoe {
-    width: 100%;
-    grid-column: 1;
-    grid-row: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 90%;
+    grid-row: 1/3;
 }
 
 span {
@@ -97,14 +132,14 @@ span {
 }
 
 .zoe img {
-    width: 100%;
-    padding-left: 100px;
+    width: 80%;
+    border-radius: 20px;
 }
 
 .tipo-zoe {
     width: 500px;
     grid-column: 2;
-    grid-row: 1;
+    grid-row: 1/3;
 }
 
 .tipo-zoe h2 {
@@ -114,6 +149,50 @@ span {
 }
 
 .tipo-zoe p {
+    color: #EAEAEA;
+}
+
+
+/*----------*/
+/*------------- entrenamiento ------------*/
+
+.entrenamiento-container {
+    height: 100vh;
+    padding: 70px 0 70px 0;
+    background-color: #17181b;
+    justify-items: center;
+    align-items: center;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 550px auto;
+}
+
+.entrena {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 90%;
+    grid-row: 1/3;
+}
+
+.tipo-entrena {
+    width: 500px;
+    grid-column: 1;
+    grid-row: 1/3;
+}
+
+.fotito-zoe {
+    border-radius: 20px;
+}
+
+.tipo-entrena h2 {
+    color: #08D9D6;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.tipo-entrena p {
     color: #EAEAEA;
 }
 

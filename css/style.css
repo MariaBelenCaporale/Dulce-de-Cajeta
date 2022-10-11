@@ -277,6 +277,7 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
   font-size: 3em;
   font-family: "Comfortaa", cursive;
   width: 100%;
+  font-family: "Comfortaa";
 }
 @media only screen and (max-width: 360px) {
   .carousel .carousel-inner .carousel-item h5 {

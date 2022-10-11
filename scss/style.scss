@@ -167,6 +167,10 @@ header .menu .container-fluid .collapse .navbar-nav {
         display: none;
     }
 
+    @media only screen and (min-width:361px) and (max-width:480px){
+        display: none;;
+    }
+
     .flecha-1 {
         z-index: 1;
         margin-right: 38px;
@@ -348,7 +352,14 @@ header .menu .container-fluid .collapse .navbar-nav {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 100vh auto;
+    
+    @media only screen and (max-width:360px){
+        grid-template-rows: 70vh auto;
+    }
 
+    @media only screen and (min-width:361px) and (max-width:480px) {
+        grid-template-rows: 70vh auto;
+    }
     .fotitos img {
         width: 90%;
         grid-column: 2 / auto;
@@ -459,6 +470,14 @@ header .menu .container-fluid .collapse .navbar-nav {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 100vh auto;
+    
+    @media only screen and (max-width:360px){
+        grid-template-rows: 70vh auto;
+    }
+
+    @media only screen and (min-width:361px) and (max-width:480px) {
+        grid-template-rows: 70vh auto;
+    }
 
     .nos {
         width: 70%;
@@ -575,11 +594,14 @@ header .menu .container-fluid .collapse .navbar-nav {
     overflow: hidden;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 847px auto;
+    grid-template-rows: 100vh auto;
 
-    @media only screen and (max-width:360px) {
-        height: 100vh;
-        grid-template-rows: 100vh auto;
+    @media only screen and (max-width:360px){
+        grid-template-rows: 70vh auto;
+    }
+
+    @media only screen and (min-width:361px) and (max-width:480px) {
+        grid-template-rows: 70vh auto;
     }
 
     .zoe {
@@ -701,6 +723,9 @@ header .menu .container-fluid .collapse .navbar-nav {
     flex-direction: column;
     gap: 30px;
     background-color: #0e0f11;
+    @media only screen and (max-width:360px){
+        grid-template-rows: 70vh auto;
+    }
 
     h2 {
         color: #08D9D6;

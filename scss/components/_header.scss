@@ -1,3 +1,4 @@
+@import '../base/listas';
 * {
     margin: 0;
     padding: 0;
@@ -31,10 +32,10 @@ header {
 
                     .nav-item {
                         .control {
-                            color: #0e0f11;
+                            color: nth($colores, 5 );;
 
                             &:hover {
-                                color: #ff1b60;
+                                color: nth($colores, 1 );;
                             }
                         }
                     }

@@ -1,0 +1,99 @@
+/* FOOTER */
+
+.footer-container {
+    display: grid;
+    grid-template-rows: 53px 40px 17px;
+    grid-template-columns: 25fr 25fr 25fr 25fr;
+    color: #EAEAEA;
+    background-color: #17181b;
+    align-items: center;
+
+    .logo-a {
+        display: grid;
+        justify-content: center;
+        grid-row: 1/3;
+
+        img {
+            padding-top: 10px;
+            width: 65px;
+
+            @media only screen and (max-width:360px) {
+                width: 45px;
+            }
+            @media only screen and (min-width:361px) and (max-width:480px){
+                width: 45px;
+            }
+        }
+    }
+
+    p {
+        grid-row: 1/4;
+        justify-items: center;
+        display: grid;
+        grid-column: 2/4;
+        margin-top: 0;
+        margin-bottom: 0;
+
+        @media only screen and (max-width:360px){
+            font-size: 0.7rem;
+        }
+        @media only screen and (min-width:361px) and (max-width:480px){
+            font-size: 0.8rem;
+        }
+        @media only screen and (min-width:481px) and (max-width:768px){
+            font-size: 0.9rem;
+        }
+    }
+
+    .nav-footer {
+        grid-row: 1/4;
+        justify-content: center;
+        grid-column: 4;
+        display: grid;
+
+        ul {
+            margin-bottom: 0;
+            padding-left: 0;
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            grid-column-gap: 60px;
+
+            @media only screen and (max-width:360px){
+                gap: 16px;
+            }
+            @media only screen and (min-width:361px) and (max-width:480px){
+                gap: 16px;
+            }
+
+            @media only screen and (min-width:481px) and (max-width:768px){
+                gap: 16px;
+            }
+        }
+
+        a {
+            color: #EAEAEA;
+            text-decoration: none;
+
+            img {
+                width: 24px;
+
+                @media only screen and (max-width:360px){
+                    width: 19px;
+                }
+
+                @media only screen and (min-width:361px) and (max-width:480px){
+                    width: 19px;
+                }
+
+                @media only screen and (min-width:481px) and (max-width:768px){
+                    width: 19px;
+                }
+            }
+        }
+
+
+
+
+    }
+}

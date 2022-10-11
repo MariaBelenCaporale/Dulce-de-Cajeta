@@ -1,0 +1,48 @@
+.conocer-mas {
+    background-color: #EAEAEA;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 80px 323px;
+    padding: 10px 100px 50px 100px;
+    gap: 30px;
+    h3{
+        align-content: flex-end;
+        grid-row: 1;
+        grid-column: 1/4;
+        display: grid;
+        justify-content: center;
+    }
+    .mas{
+        grid-row: 2/3;
+        overflow: hidden;
+        box-shadow: -4px 3px 35px -4px rgba(0, 0, 0, 0.36);
+        -webkit-box-shadow: -4px 3px 35px -4px rgba(0, 0, 0, 0.36);
+        -moz-box-shadow: -4px 3px 35px -4px rgba(0, 0, 0, 0.36);
+    
+        .uno{
+            width: 460px;
+        }
+        .dos{
+            width: 625px;
+        }
+        .tres{
+            width: 493px;
+        }
+    }
+    .conocer-sec {
+        justify-content: center;
+        grid-column: 2;
+        display: grid;
+        align-content: center;
+        .btn-outline-primary {
+            color: #EAEAEA;
+            background-color: #17181b;
+            border: #17181b;
+
+            &:hover {
+                color: #EAEAEA;
+                background-color: #FF2E63;
+            }
+        }
+    }
+}

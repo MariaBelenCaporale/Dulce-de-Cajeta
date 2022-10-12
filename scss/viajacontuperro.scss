@@ -3,21 +3,116 @@
 @import '../scss/components/footer';
 @import '../scss/components/conocermas';
 
+header .menu {
+    @media only screen and (max-width:360px) {
+        background: rgb(255 255 255 / 82%);
+        width: 100%;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        display: inline-grid;
+        z-index: 1;
+        margin-top: 0;
+    }
 
-.banner-zoe-a {
-    background: aqua;
-    display: flex;
-    overflow: hidden;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-    h2{
-        color: nth($colores, 1 );
+    @media only screen and (min-width:361px) and (max-width:480px) {
+        background: rgb(255 255 255 / 82%);
+        width: 100%;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        display: inline-grid;
+        z-index: 1;
+        margin-top: 0;
+    }
+
+    @media only screen and (min-width:481px) and (max-width:768px) {
+        background: rgb(255 255 255 / 82%);
+        width: 100%;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        display: inline-grid;
+        z-index: 1;
+        margin-top: 0;
+    }
+    @media only screen and (min-width:769px) and (max-width:992px){
+        background: rgb(255 255 255 / 82%);
+        width: 100%;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        display: inline-grid;
+        z-index: 1;
+        margin-top: 0;
     }
 }
 
+header .menu .container-fluid .collapse .navbar-nav {
+    @media only screen and (max-width:360px) {
+        gap: 0;
+    }
+    @media only screen and (min-width:361px) and (max-width:480px) {
+        gap: 16px;
+    }
+    @media only screen and (min-width:481px) and (max-width:768px){
+        gap: 17px;
+    }
+    @media only screen and (min-width:769px) and (max-width:992px){
+        gap: 18px;
+    }
+    
+}
+
+.navbar-toggler-icon {
+    @media only screen and (max-width:360px) {
+        height: 1em;
+        width: 1em;
+    }
+}
+
+.navbar-nav {
+    @media only screen and (max-width:360px) {
+        --bs-nav-link-padding-y: 0.46rem;
+    }
+}
+/* FOTO ZOË */
+    section {
+        .img-fluid {
+            width: 100%;
+            height: 100vh;
+
+            @media only screen and (max-width:360px) {
+                height: 38vh;
+            }
+            @media only screen and (min-width:361px) and (max-width:480px) {
+                height: 46vh;
+            }
+            @media only screen and (min-width:481px) and (max-width:768px){
+                height: 76vh;
+            }
+
+            @media only screen and (min-width:769px) and (max-width:992px){
+                height: 70vh;
+            }
+        }
+    }
+
 .contador-iconos{
     background-color: #17181b;
+
+    @media only screen and (max-width:360px) {
+        height: 15vh;
+    }
+
+    @media only screen and (min-width:361px) and (max-width:480px) {
+        height: 20vh;
+    }
+
+    @media only screen and (min-width:481px) and (max-width:768px){
+        height: 23vh;
+    }
+
     .iconos{
         padding-bottom: 30px;
         gap: 193px;
@@ -25,30 +120,173 @@
         justify-content: center;
         align-items: center;
         height: 187px;
+
+        @media only screen and (max-width:360px) {
+            padding-bottom: 30px;
+            gap: 53px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 103px;
+        }
+
+        @media only screen and (min-width:361px) and (max-width:480px) {
+            padding-bottom: 56px;
+            gap: 62px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 169px;
+        }
+
+        @media only screen and (min-width:481px) and (max-width:768px){
+            padding-bottom: 44px;
+            gap: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 169px;
+        }
+
+        @media only screen and (min-width:769px) and (max-width:992px){
+            padding-bottom: 45px;
+            gap: 193px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 187px;
+        }
+
         img{
-            width: 102px;
-            padding-top: 56px;
+            width: 91px;
+            padding-top: 5px;
+
+            @media only screen and (max-width:360px) {
+                width: 40px;
+                padding-top: 4px;
+            }
+
+            @media only screen and (min-width:361px) and (max-width:480px) {
+                width: 60px;
+                padding-top: 5px;
+            }
+
+            @media only screen and (min-width:481px) and (max-width:768px){
+                width: 76px;
+                padding-top: 7px;
+            }
+
+            @media only screen and (min-width:769px) and (max-width:992px){
+                width: 83px;
+                padding-top: 4px;
+            }
+    
         }
         .orden{
-            height: 121px;
-            width: 121px;
+            height: 100px;
+            width: 100px;
             background-color: white;
             flex-direction: column-reverse;
             display: flex;
             color: white;
             text-decoration: none;
-            justify-content: center;
+            justify-content: flex-end;
             align-items: center;
             border-radius: 50%;
+
+            @media only screen and (max-width:360px) {
+                height: 48px;
+                width: 48px;
+                background-color: white;
+                flex-direction: column-reverse;
+                display: flex;
+                color: white;
+                text-decoration: none;
+                justify-content: flex-end;
+                align-items: center;
+                border-radius: 50%;
+            }
+
+            @media only screen and (min-width:361px) and (max-width:480px){
+                height: 70px;
+                width: 70px;
+                background-color: white;
+                flex-direction: column-reverse;
+                display: flex;
+                color: white;
+                text-decoration: none;
+                justify-content: flex-end;
+                align-items: center;
+                border-radius: 50%;
+            }
+
+            @media only screen and (min-width:481px) and (max-width:768px){
+                height: 90px;
+                width: 90px;
+                background-color: white;
+                flex-direction: column-reverse;
+                display: flex;
+                color: white;
+                text-decoration: none;
+                justify-content: flex-end;
+                align-items: center;
+                border-radius: 50%;
+            }
+
+            @media only screen and (min-width:769px) and (max-width:992px){
+                height: 90px;
+                width: 90px;
+                background-color: white;
+                flex-direction: column-reverse;
+                display: flex;
+                color: white;
+                text-decoration: none;
+                justify-content: start;
+                align-items: center;
+                border-radius: 50%;
+            }
 
             &:hover{
                 color: #ff1b60;
             }
 
             p{
-                padding-top: 17px;
+                text-align: center;
+                font-size: 1rem;
+                padding-top: 14px;
                 margin-top: 0;
-                margin-bottom: 1rem;
+
+                @media only screen and (max-width:360px) {
+                    align-items: center;
+                    text-align: center;
+                    font-size: 0.6rem;
+                    padding-top: 13px;
+                    margin-top: 0;
+                    margin-bottom: 1rem;
+                }
+
+                @media only screen and (min-width:361px) and (max-width:480px){
+                    text-align: center;
+                    font-size: 0.6rem;
+                    padding-top: 12px;
+                    margin-top: 0;
+                    margin-bottom: 1rem;
+                }
+
+                @media only screen and (min-width:481px) and (max-width:768px){
+                    font-size: 0.8rem;
+                    padding-top: 20px;
+                    text-align: center;
+                    margin-top: 0;
+                    margin-bottom: 1rem;
+                }
+
+                @media only screen and (min-width:769px) and (max-width:992px){
+                    text-align: center;
+                    padding-top: 17px;
+                    margin-top: 0;
+                    margin-bottom: 1rem;
+                }
             }
         }
     }
@@ -65,29 +303,128 @@
     overflow: hidden;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 550px auto;
+    grid-template-rows: 100vh auto;
+
+    @media only screen and (max-width:360px) {
+        padding: 0;
+        background-color: black;
+        justify-items: center;
+        align-items: center;
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 70vh;
+        height: 70vh;
+    }
+    @media only screen and (min-width:361px) and (max-width:480px) {
+        height: 70vh;
+        padding: 0; 
+        background-color: black;
+        justify-items: center;
+        align-items: center;
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+    }
+
+    @media only screen and (min-width:481px) and (max-width:768px){
+    height: 76vh;
+    padding: 0; 
+    background-color: black;
+    justify-items: center;
+    align-items: center;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    }
+    
+    @media only screen and (min-width:769px) and (max-width:992px){
+        height: 73vh;
+        padding: 0; 
+        background-color: black;
+        justify-items: center;
+        align-items: center;
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+    }
+
     .zoe{
         justify-content: center;
         align-items: center;
         display: flex;
         width: 90%;
         grid-row: 1/3;
-        img{
-            width: 80%;
-            border-radius: 20px;
+
+        @media only screen and (max-width:360px){
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            width: 90%;
+            grid-row: 1/3;
         }
+
+        @media only screen and (min-width:361px) and (max-width:480px){
+            width: 80%;
+            grid-column: 1/3;
+            grid-row: 1;
+        }
+
+            img{
+                width: 80%;
+                border-radius: 20px;
+
+                @media only screen and (max-width:360px){
+                    display: none;
+                }
+
+                @media only screen and (min-width:361px) and (max-width:480px){
+                    display: none;
+                }
+            }
     }
     .tipo-zoe{
         width: 500px;
         grid-column: 2;
         grid-row: 1/3;
+
+        @media only screen and (max-width:360px){
+            width: 250px;
+            grid-column: 1/3;
+            grid-row: 1/3;
+        }
+
+        @media only screen and (min-width:361px) and (max-width:480px){
+            width: 80%;
+            grid-column: 1/3;
+            grid-row: 1;
+        }
+
+        @media only screen and (min-width:481px) and (max-width:768px){
+            width: 80%;
+            grid-column: 2;
+            grid-row: 1/3;
+        }
+
+        @media only screen and (min-width:769px) and (max-width:992px){
+            padding-right: 72px;
+            width: 500px;
+            grid-column: 2;
+            grid-row: 1/3;
+        }
+
         h2{
             font-weight: 300;
             font-size: 2rem;
             color: #08D9D6;
         }
+
         p{
             color: #EAEAEA;
+            
         }
     }
 }
@@ -103,21 +440,142 @@
     overflow: hidden;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 550px auto;
+    grid-template-rows: 100vh auto;
+
+    @media only screen and (max-width:360px) {
+        padding: 0;
+        justify-items: center;
+        align-items: center;
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 70vh;
+        height: 70vh;
+    }
+
+    @media only screen and (min-width:361px) and (max-width:480px) {
+        height: 70vh;
+        padding: 0; 
+        justify-items: center;
+        align-items: center;
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+    }
+
+    @media only screen and (min-width:481px) and (max-width:768px){
+        height: 76vh;
+        padding: 0; 
+        justify-items: center;
+        align-items: center;
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        }
+
+        @media only screen and (min-width:769px) and (max-width:992px){
+            height: 70vh;
+            padding: 0; 
+            background-color: #17181b;
+            justify-items: center;
+            align-items: center;
+            overflow: hidden;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: auto;
+        }
+
     .entrena{
         justify-content: center;
         align-items: center;
         display: flex;
         width: 90%;
         grid-row: 1/3;
+
+        @media only screen and (max-width:360px){
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            width: 90%;
+            grid-row: 1/3;
+        }
+
+        @media only screen and (min-width:361px) and (max-width:480px){
+            width: 80%;
+            grid-column: 1/3;
+            grid-row: 1;
+        }
+
+        @media only screen and (min-width:481px) and (max-width:768px){
+            justify-content: center;
+            overflow: hidden;
+            align-items: center;
+            display: flex;
+            width: 80%;
+            grid-row: 1/3;
+            height: 38vh;
+        }
+
+        @media only screen and (min-width:769px) and (max-width:992px){
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            width: 90%;
+            grid-row: 1/3;
+        }
+
         img{
             border-radius: 20px;
+
+            @media only screen and (max-width:360px){
+                display: none;
+            }
+
+            @media only screen and (min-width:361px) and (max-width:480px){
+                display: none;
+            }
+
+            @media only screen and (min-width:481px) and (max-width:768px){
+                width: 100%;
+            }
+
+            @media only screen and (min-width:769px) and (max-width:992px){
+                width: 90%;
+            }
         }
     }
     .tipo-entrena{
         width: 500px;
         grid-column: 1;
         grid-row: 1/3;
+
+        @media only screen and (max-width:360px){
+            width: 250px;
+            grid-column: 1/3;
+            grid-row: 1/3;
+        }
+
+        @media only screen and (min-width:361px) and (max-width:480px){
+            width: 80%;
+            grid-column: 1/3;
+            grid-row: 1;
+        }
+
+        @media only screen and (min-width:481px) and (max-width:768px){
+            width: 80%;
+            grid-column: 1;
+            grid-row: 1/3;
+        }
+
+        @media only screen and (min-width:769px) and (max-width:992px){
+            width: 90%;
+            grid-column: 1;
+            grid-row: 1/3;
+            padding-left: 30px;
+        }
+
         h2{
             color: #08D9D6;
             font-weight: 300;

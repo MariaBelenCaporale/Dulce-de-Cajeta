@@ -1,7 +1,7 @@
 @import '../scss/components/header';
 @import '../scss/base/listas';
 @import '../scss/components/footer';
-@import '../scss/components/conocermas';
+@import '/scss/components/conocermas';
 
 /* NAV */
 header {
@@ -19,11 +19,65 @@ header {
         z-index: 1;
         margin-top: 30px;
 
+        @media only screen and (max-width:360px) {
+            background: rgb(255 255 255 / 82%);
+            width: 100%;
+            position: absolute;
+            align-items: center;
+            justify-content: center;
+            display: inline-grid;
+            z-index: 1;
+            margin-top: 0;
+        }
+    
+        @media only screen and (min-width:361px) and (max-width:480px) {
+            background: rgb(255 255 255 / 82%);
+            width: 100%;
+            position: absolute;
+            align-items: center;
+            justify-content: center;
+            display: inline-grid;
+            z-index: 1;
+            margin-top: 0;
+        }
+    
+        @media only screen and (min-width:481px) and (max-width:768px) {
+            background: rgb(255 255 255 / 82%);
+            width: 100%;
+            position: absolute;
+            align-items: center;
+            justify-content: center;
+            display: inline-grid;
+            z-index: 1;
+            margin-top: 0;
+        }
+        @media only screen and (min-width:769px) and (max-width:992px){
+            background: rgb(255 255 255 / 82%);
+            width: 100%;
+            position: absolute;
+            align-items: center;
+            justify-content: center;
+            display: inline-grid;
+            z-index: 1;
+            margin-top: 0;
+        }
         .container-fluid {
             .collapse {
                 .navbar-nav {
                     gap: 90px;
 
+                    @media only screen and (max-width:360px) {
+                        gap: 0;
+                    }
+                    @media only screen and (min-width:361px) and (max-width:480px) {
+                        gap: 16px;
+                    }
+                    @media only screen and (min-width:481px) and (max-width:768px){
+                        gap: 17px;
+                    }
+                    @media only screen and (min-width:769px) and (max-width:992px){
+                        gap: 18px;
+                    }
                     .nav-item {
                         .control {
                             color: nth($colores, 4 );;

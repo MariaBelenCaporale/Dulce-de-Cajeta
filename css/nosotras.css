@@ -109,12 +109,68 @@
   padding: 10px 100px 50px 100px;
   gap: 30px;
 }
+@media only screen and (max-width: 360px) {
+  .conocer-mas {
+    background-color: #EAEAEA;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 64px 136px;
+    padding: 20px 9px 20px 9px;
+    gap: 10px;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 480px) {
+  .conocer-mas {
+    background-color: #EAEAEA;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 64px 149px;
+    padding: 12px 9px 20px 9px;
+    gap: 13px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .conocer-mas {
+    background-color: #EAEAEA;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 53px 238px;
+    padding: 10px 50px 50px 50px;
+    gap: 30px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .conocer-mas {
+    background-color: #EAEAEA;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 80px 297px;
+    padding: 10px 59px 50px 59px;
+    gap: 30px;
+  }
+}
 .conocer-mas h3 {
-  align-content: flex-end;
+  align-items: center;
+  font-size: 1.5rem;
   grid-row: 1;
   grid-column: 1/4;
   display: grid;
   justify-content: center;
+}
+@media only screen and (max-width: 360px) {
+  .conocer-mas h3 {
+    background-color: #EAEAEA;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 64px 149px;
+    padding: 12px 9px 20px 9px;
+    gap: 13px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .conocer-mas h3 {
+    font-size: 1.5rem;
+  }
 }
 .conocer-mas .mas {
   grid-row: 2/3;

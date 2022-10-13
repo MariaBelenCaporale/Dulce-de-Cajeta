@@ -186,30 +186,30 @@ header {
         cursor: pointer;
         margin: 0;
 
-    @media only screen and (max-width:360px){
-        position: relative;
-        height: 157px;
-        width: 50%;
-        overflow: hidden;
-        cursor: pointer;
-        margin: 0;
-    }
+        @media only screen and (max-width:360px){
+            position: relative;
+            height: 157px;
+            width: 50%;
+            overflow: hidden;
+            cursor: pointer;
+            margin: 0;
+        }
 
-    @media only screen and (min-width:361px) and (max-width:480px){
-        height: 183px;
-        width: 50%;
-    }
+        @media only screen and (min-width:361px) and (max-width:480px){
+            height: 183px;
+            width: 50%;
+        }
 
-    @media only screen and (min-width:481px) and (max-width:768px){
-        height: 263px;
-        width: 50%;
-    }
+        @media only screen and (min-width:481px) and (max-width:768px){
+            height: 263px;
+            width: 50%;
+        }
 
-    @media only screen and (min-width:769px) and (max-width:992px){
-        height: 340px;
-        width: 50%;
-    }
-        
+        @media only screen and (min-width:769px) and (max-width:992px){
+            height: 340px;
+            width: 50%;
+        }
+            
         img { 
             width: 100%;
             height: 100%;
@@ -219,38 +219,49 @@ header {
                 transform: scale(1.3);
             }
         }
-
+    }
+}
+    .figure{
         .capa {
             position: absolute;
             padding-top: 32px;
             top: 0px;
             width: 100%;
             height: 100%;
-            background: nth($colores , 3 );
+            background: #0e0f11c1;
             transition: all 500ms ease-out;
             opacity: 0;
-            visibility: hidden;
             text-align: center;
 
             &:hover{
                 opacity: 1;
                 visibility: visible;
             }
-        
+        }
+
+        .capa {
             h2{
                 color: #EAEAEA;
                 font-weight: 400;
                 margin-bottom: 120px;
                 transition: all 500ms ease-out;
-                margin-top: 30px;
+                margin-top: 30%;
 
-                &:hover{
-                    margin-top: 70px;
-                    margin-bottom: 15px;
-                    transition: all 500ms ease-out;
+                @media only screen and (max-width:360px){
+                    margin-top: 20%;
+                }
+
+                @media only screen and (min-width:361px) and (max-width:480px){
+                    margin-top: 19%;
+                }
+
+                @media only screen and (min-width:481px) and (max-width:768px){
+                    margin-top: 25%;
+                }
+
+                @media only screen and (min-width:769px) and (max-width:992px){
+                    margin-top: 25%;
+                }
             }
-            }
-        }
-        
     }
 }

@@ -368,33 +368,48 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
 .contenedor-galeria .figure img:hover {
   transform: scale(1.3);
 }
-.contenedor-galeria .figure .capa {
+
+.figure .capa {
   position: absolute;
   padding-top: 32px;
   top: 0px;
   width: 100%;
   height: 100%;
-  background: #252A34;
+  background: rgba(14, 15, 17, 0.7568627451);
   transition: all 500ms ease-out;
   opacity: 0;
-  visibility: hidden;
   text-align: center;
 }
-.contenedor-galeria .figure .capa:hover {
+.figure .capa:hover {
   opacity: 1;
   visibility: visible;
 }
-.contenedor-galeria .figure .capa h2 {
+.figure .capa h2 {
   color: #EAEAEA;
   font-weight: 400;
   margin-bottom: 120px;
   transition: all 500ms ease-out;
-  margin-top: 30px;
+  margin-top: 30%;
 }
-.contenedor-galeria .figure .capa h2:hover {
-  margin-top: 70px;
-  margin-bottom: 15px;
-  transition: all 500ms ease-out;
+@media only screen and (max-width: 360px) {
+  .figure .capa h2 {
+    margin-top: 20%;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 480px) {
+  .figure .capa h2 {
+    margin-top: 19%;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .figure .capa h2 {
+    margin-top: 25%;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .figure .capa h2 {
+    margin-top: 25%;
+  }
 }
 
 /*# sourceMappingURL=explora.css.map */

@@ -443,10 +443,10 @@ section .img-fluid {
 .contador-iconos .iconos .orden {
   height: 100px;
   width: 100px;
-  background-color: white;
+  background-color: #EAEAEA;
   flex-direction: column-reverse;
   display: flex;
-  color: white;
+  color: #EAEAEA;
   text-decoration: none;
   justify-content: flex-end;
   align-items: center;
@@ -456,10 +456,10 @@ section .img-fluid {
   .contador-iconos .iconos .orden {
     height: 48px;
     width: 48px;
-    background-color: white;
+    background-color: #EAEAEA;
     flex-direction: column-reverse;
     display: flex;
-    color: white;
+    color: #EAEAEA;
     text-decoration: none;
     justify-content: flex-end;
     align-items: center;
@@ -470,10 +470,10 @@ section .img-fluid {
   .contador-iconos .iconos .orden {
     height: 70px;
     width: 70px;
-    background-color: white;
+    background-color: #EAEAEA;
     flex-direction: column-reverse;
     display: flex;
-    color: white;
+    color: #EAEAEA;
     text-decoration: none;
     justify-content: flex-end;
     align-items: center;
@@ -484,10 +484,10 @@ section .img-fluid {
   .contador-iconos .iconos .orden {
     height: 90px;
     width: 90px;
-    background-color: white;
+    background-color: #EAEAEA;
     flex-direction: column-reverse;
     display: flex;
-    color: white;
+    color: #EAEAEA;
     text-decoration: none;
     justify-content: flex-end;
     align-items: center;
@@ -498,7 +498,7 @@ section .img-fluid {
   .contador-iconos .iconos .orden {
     height: 90px;
     width: 90px;
-    background-color: white;
+    background-color: #EAEAEA;
     flex-direction: column-reverse;
     display: flex;
     color: white;
@@ -509,7 +509,7 @@ section .img-fluid {
   }
 }
 .contador-iconos .iconos .orden:hover {
-  color: #ff1b60;
+  color: #FF2E63;
 }
 .contador-iconos .iconos .orden p {
   text-align: center;
@@ -558,18 +558,18 @@ section .img-fluid {
 .zoe-container {
   height: 100vh;
   padding: 70px 0 70px 0;
-  background-color: black;
+  background-color: #0e0f11;
   justify-items: center;
   align-items: center;
   overflow: hidden;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 100vh auto;
+  grid-template-rows: auto;
 }
 @media only screen and (max-width: 360px) {
   .zoe-container {
     padding: 0;
-    background-color: black;
+    background-color: #0e0f11;
     justify-items: center;
     align-items: center;
     overflow: hidden;
@@ -583,7 +583,7 @@ section .img-fluid {
   .zoe-container {
     height: 70vh;
     padding: 0;
-    background-color: black;
+    background-color: #0e0f11;
     justify-items: center;
     align-items: center;
     overflow: hidden;
@@ -596,7 +596,7 @@ section .img-fluid {
   .zoe-container {
     height: 76vh;
     padding: 0;
-    background-color: black;
+    background-color: #0e0f11;
     justify-items: center;
     align-items: center;
     overflow: hidden;
@@ -609,7 +609,7 @@ section .img-fluid {
   .zoe-container {
     height: 73vh;
     padding: 0;
-    background-color: black;
+    background-color: #0e0f11;
     justify-items: center;
     align-items: center;
     overflow: hidden;
@@ -708,7 +708,7 @@ section .img-fluid {
   overflow: hidden;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 100vh auto;
+  grid-template-rows: auto;
 }
 @media only screen and (max-width: 360px) {
   .entrenamiento-container {

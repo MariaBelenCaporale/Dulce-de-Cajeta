@@ -487,7 +487,7 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
 
 /*galeria*/
 #explora-a {
-  background-color: #000000;
+  background-color: #0e0f11;
   justify-items: center;
   align-items: center;
   overflow: hidden;
@@ -743,7 +743,7 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
 
 /* ZOE */
 #zoe-a {
-  background-color: black;
+  background-color: #0e0f11;
   justify-items: center;
   align-items: center;
   overflow: hidden;
@@ -854,7 +854,7 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
   display: flex;
   color: #EAEAEA;
   background-color: #FF2E63;
-  border: #FF2E63;
+  border-color: #FF2E63;
   border-radius: 20pt;
   width: 142px;
 }
@@ -923,7 +923,7 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
 .form-registro .inputBox input {
   width: 100%;
   background: transparent;
-  color: white;
+  color: #EAEAEA;
   border: none;
   box-shadow: none;
   outline: none;
@@ -945,7 +945,7 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
   position: absolute;
   width: 100%;
   height: 2px;
-  background: #fff;
+  background: #EAEAEA;
   left: 0;
   bottom: 0;
   overflow: hidden;
@@ -957,7 +957,7 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
 .form-registro .inputBox input {
   width: 100%;
   background: transparent;
-  color: white;
+  color: #EAEAEA;
   border: none;
   box-shadow: none;
   outline: none;
@@ -987,7 +987,7 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
   position: absolute;
   width: 100%;
   height: 2px;
-  background: #fff;
+  background: #EAEAEA;
   left: 0;
   bottom: 0;
   overflow: hidden;

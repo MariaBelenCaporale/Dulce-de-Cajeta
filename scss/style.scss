@@ -183,10 +183,8 @@ header .menu .container-fluid .collapse .navbar-nav {
         align-items: center;
         display: flex;
         color: #EAEAEA;
-        background-color: nth($colores, 1);
-        ;
+        background-color: #FF2E63;
         border: nth($colores, 1);
-        ;
         border-radius: 20pt;
         width: 40px;
 
@@ -224,7 +222,7 @@ header .menu .container-fluid .collapse .navbar-nav {
         display: flex;
         width: 473px;
         height: 40px;
-        color: #EAEAEA;
+        color: nth($colores, 4 );
         font-size: 40px;
         line-height: 40px;
         margin: auto;
@@ -251,7 +249,7 @@ header .menu .container-fluid .collapse .navbar-nav {
             padding-left: 10px;
             animation: cambiar 5s infinite;
             font-size: 30px;
-            color: #08D9D6;
+            color: nth($colores, 2 );
 
             @media only screen and (max-width:360px) {
                 font-size: 15px;
@@ -345,7 +343,7 @@ header .menu .container-fluid .collapse .navbar-nav {
 /*galeria*/
 
 #explora-a {
-    background-color: #000000;
+    background-color: nth($colores, 5 );
     justify-items: center;
     align-items: center;
     overflow: hidden;
@@ -413,16 +411,16 @@ header .menu .container-fluid .collapse .navbar-nav {
         }
 
         h2 {
-            color: #08D9D6;
+            color: nth($colores, 2 );
             font-weight: 300;
             font-size: 2rem;
         }
 
         p {
-            color: #EAEAEA;
+            color: nth($colores, 4 );
 
             @media only screen and (max-width:360px) {
-                color: #EAEAEA;
+                color: nth($colores, 4 );
                 font-size: 15px;
                 font-weight: 300;
             }
@@ -436,8 +434,8 @@ header .menu .container-fluid .collapse .navbar-nav {
             align-items: center;
             display: flex;
             color: #EAEAEA;
-            background-color: #FF2E63;
-            border: #FF2E63;
+            background-color: nth($colores, 1 );
+            border: nth($colores, 1 );
             border-radius: 20pt;
             width: 142px;
 
@@ -449,7 +447,7 @@ header .menu .container-fluid .collapse .navbar-nav {
 
             &:hover {
                 color: #0e0f11;
-                background-color: #08D9D6;
+                background-color: nth($colores , 2 );
             }
         }
 
@@ -463,7 +461,7 @@ header .menu .container-fluid .collapse .navbar-nav {
 /* NOSOTRAS */
 
 #nosotras-a {
-    background-color: #17181b;
+    background-color: nth($colores , 6 );
     justify-items: center;
     align-items: center;
     overflow: hidden;
@@ -516,7 +514,7 @@ header .menu .container-fluid .collapse .navbar-nav {
         width: 500px;
         grid-column: 2;
         grid-row: 1;
-        color: #EAEAEA;
+        color: nth($colores , 4 );
 
         @media only screen and (max-width:360px) {
             width: 70%;
@@ -538,18 +536,18 @@ header .menu .container-fluid .collapse .navbar-nav {
             width: 435px;
             grid-column: 2;
             grid-row: 1;
-            color: #EAEAEA;
+            color:nth($colores , 4 );
         }
 
         h2 {
-            color: #08D9D6;
+            color:nth($colores , 2 );
             font-weight: 300;
             font-size: 2rem;
         }
 
         p {
             @media only screen and (max-width:360px) {
-                color: #EAEAEA;
+                color:nth($colores , 4 );
                 font-size: 0.9rem;
             }
         }
@@ -561,9 +559,9 @@ header .menu .container-fluid .collapse .navbar-nav {
             height: 39px;
             align-items: center;
             display: flex;
-            color: #EAEAEA;
-            background-color: #FF2E63;
-            border: #FF2E63;
+            color:nth($colores , 4 );
+            background-color: nth($colores, 1 );
+            border: nth($colores, 1 );
             border-radius: 20pt;
             width: 142px;
 
@@ -574,8 +572,8 @@ header .menu .container-fluid .collapse .navbar-nav {
             }
 
             &:hover {
-                color: #0e0f11;
-                background-color: #08D9D6;
+                color: nth($colores, 5 );
+                background-color: nth($colores , 2 )
             }
         }
 
@@ -588,7 +586,7 @@ header .menu .container-fluid .collapse .navbar-nav {
 /* ZOE */
 
 #zoe-a {
-    background-color: black;
+    background-color: nth($colores, 5 );
     justify-items: center;
     align-items: center;
     overflow: hidden;
@@ -666,17 +664,17 @@ header .menu .container-fluid .collapse .navbar-nav {
         }
 
         h2 {
-            color: #08D9D6;
+            color: nth($colores , 2 );
             font-weight: 300;
             font-size: 2rem;
         }
 
         p {
-            color: #EAEAEA;
+            color: nth($colores , 4 );
 
 
             @media only screen and (max-width:360px) {
-                color: #EAEAEA;
+                color: nth($colores , 4 );
                 font-size: 0.9rem;
             }
 
@@ -689,9 +687,9 @@ header .menu .container-fluid .collapse .navbar-nav {
             height: 39px;
             align-items: center;
             display: flex;
-            color: #EAEAEA;
-            background-color: #FF2E63;
-            border: #FF2E63;
+            color: nth($colores , 4 );
+            background-color: nth($colores , 1 );
+            border-color: nth($colores, 1 );
             border-radius: 20pt;
             width: 142px;
 
@@ -702,8 +700,8 @@ header .menu .container-fluid .collapse .navbar-nav {
             }
 
             &:hover {
-                color: #0e0f11;
-                background-color: #08D9D6;
+                color: nth($colores , 5 );
+                background-color: nth($colores , 2 );
             }
         }
 
@@ -722,13 +720,13 @@ header .menu .container-fluid .collapse .navbar-nav {
     min-height: 100vh;
     flex-direction: column;
     gap: 30px;
-    background-color: #0e0f11;
+    background-color: nth($colores , 5 );
     @media only screen and (max-width:360px){
         grid-template-rows: 70vh auto;
     }
 
     h2 {
-        color: #08D9D6;
+        color: nth($colores , 2 );
         font-weight: 300;
         font-size: 2rem;
     }
@@ -746,7 +744,7 @@ header .menu .container-fluid .collapse .navbar-nav {
         }
 
         p {
-            color: #EAEAEA;
+            color: nth($colores , 4 );
 
             @media only screen and (max-width:360px) {
                 display: none;
@@ -761,7 +759,7 @@ header .menu .container-fluid .collapse .navbar-nav {
         input {
             width: 100%;
             background: transparent;
-            color: white;
+            color: nth($colores , 4 );
             border: none;
             box-shadow: none;
             outline: none;
@@ -785,7 +783,7 @@ header .menu .container-fluid .collapse .navbar-nav {
             position: absolute;
             width: 100%;
             height: 2px;
-            background: #fff;
+            background: nth($colores , 4 );
             left: 0;
             bottom: 0;
             overflow: hidden;
@@ -799,7 +797,7 @@ header .menu .container-fluid .collapse .navbar-nav {
         input {
             width: 100%;
             background: transparent;
-            color: white;
+            color: nth($colores , 4 );
             border: none;
             box-shadow: none;
             outline: none;
@@ -809,7 +807,7 @@ header .menu .container-fluid .collapse .navbar-nav {
 
             &:valid~span,
             &:focus~span {
-                color: #FF2E63;
+                color: nth($colores , 1 );
                 transform: translateY(-16px);
                 font-size: 0.65em;
             }
@@ -835,7 +833,7 @@ header .menu .container-fluid .collapse .navbar-nav {
             position: absolute;
             width: 100%;
             height: 2px;
-            background: #fff;
+            background: nth($colores , 4 );
             left: 0;
             bottom: 0;
             overflow: hidden;
@@ -860,16 +858,16 @@ header .menu .container-fluid .collapse .navbar-nav {
         height: 39px;
         align-items: center;
         display: flex;
-        color: #EAEAEA;
-        background-color: #FF2E63;
-        border: #FF2E63;
+        color: nth($colores , 4);
+        background-color: nth($colores , 1 );
+        border: nth($colores , 1 );
         border-radius: 20pt;
         width: 142px;
         text-decoration: none;
 
         &:hover {
             color: #0e0f11;
-            background-color: #08D9D6;
+            background-color: nth($colores , 2 );
         }
     }
 }

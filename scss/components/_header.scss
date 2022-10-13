@@ -32,10 +32,10 @@ header {
 
                     .nav-item {
                         .control {
-                            color: nth($colores, 5 );;
+                            color: nth($colores, 5 );
 
                             &:hover {
-                                color: nth($colores, 1 );;
+                                color: nth($colores, 1 );
                             }
                         }
                     }

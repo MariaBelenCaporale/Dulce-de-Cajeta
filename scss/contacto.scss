@@ -87,7 +87,7 @@ header {
             }
 
             &:hover {
-                color: nth($colores, 5 );
+                color: nth($colores, 1 );
             }
         }
     }
@@ -114,10 +114,10 @@ header {
     min-height: 100vh;
     flex-direction: column;
     gap: 30px;
-    background-color: #0e0f11;
+    background-color: nth($colores , 5 );
 
     h2 {
-        color: #08D9D6;
+        color: nth($colores , 2 );
         font-weight: 300;
         font-size: 2rem;
     }
@@ -127,7 +127,7 @@ header {
         width: 40%;
 
         p {
-            color: #EAEAEA;
+            color: nth($colores , 4);
         }
     }
 
@@ -138,7 +138,7 @@ header {
         input {
             width: 100%;
             background: transparent;
-            color: white;
+            color: nth($colores , 4 );
             border: none;
             box-shadow: none;
             outline: none;
@@ -162,7 +162,7 @@ header {
             position: absolute;
             width: 100%;
             height: 2px;
-            background: #fff;
+            background: nth($colores , 4 );
             left: 0;
             bottom: 0;
             overflow: hidden;
@@ -186,7 +186,7 @@ header {
 
             &:valid~span,
             &:focus~span {
-                color: #FF2E63;
+                color: nth($colores , 1 );
                 transform: translateY(-16px);
                 font-size: 0.65em;
             }
@@ -212,7 +212,7 @@ header {
             position: absolute;
             width: 100%;
             height: 2px;
-            background: #fff;
+            background: nth($colores , 4 );
             left: 0;
             bottom: 0;
             overflow: hidden;
@@ -237,16 +237,16 @@ header {
         height: 39px;
         align-items: center;
         display: flex;
-        color: #EAEAEA;
-        background-color: #FF2E63;
-        border: #FF2E63;
+        color: nth($colores , 4 );
+        background-color: nth($colores , 1 );
+        border: nth($colores , 1 );
         border-radius: 20pt;
         width: 142px;
         text-decoration: none;
 
         &:hover {
-            color: #0e0f11;
-            background-color: #08D9D6;
+            color: nth($colores , 5 );
+            background-color: nth($colores , 2 );
         }
     }
 }

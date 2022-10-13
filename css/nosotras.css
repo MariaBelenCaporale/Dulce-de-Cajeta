@@ -330,7 +330,7 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control {
   }
 }
 header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
-  color: #0e0f11;
+  color: #FF2E63;
 }
 
 @media only screen and (max-width: 360px) {
@@ -433,7 +433,7 @@ section .img-fluid {
 }
 
 #bel-a {
-  background-color: black;
+  background-color: #0e0f11;
   justify-items: center;
   align-items: center;
   overflow: hidden;

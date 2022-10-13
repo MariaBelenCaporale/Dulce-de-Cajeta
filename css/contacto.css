@@ -330,7 +330,7 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control {
   }
 }
 header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
-  color: #0e0f11;
+  color: #FF2E63;
 }
 
 @media only screen and (max-width: 360px) {
@@ -374,7 +374,7 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
 .form-registro .inputBox input {
   width: 100%;
   background: transparent;
-  color: white;
+  color: #EAEAEA;
   border: none;
   box-shadow: none;
   outline: none;
@@ -396,7 +396,7 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
   position: absolute;
   width: 100%;
   height: 2px;
-  background: #fff;
+  background: #EAEAEA;
   left: 0;
   bottom: 0;
   overflow: hidden;
@@ -438,7 +438,7 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
   position: absolute;
   width: 100%;
   height: 2px;
-  background: #fff;
+  background: #EAEAEA;
   left: 0;
   bottom: 0;
   overflow: hidden;

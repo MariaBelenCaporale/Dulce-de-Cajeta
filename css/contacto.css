@@ -306,6 +306,32 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
     gap: 18px;
   }
 }
+header .menu .container-fluid .collapse .navbar-nav .nav-item .control {
+  color: #EAEAEA;
+}
+@media only screen and (max-width: 360px) {
+  header .menu .container-fluid .collapse .navbar-nav .nav-item .control {
+    color: #0e0f11;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 480px) {
+  header .menu .container-fluid .collapse .navbar-nav .nav-item .control {
+    color: #0e0f11;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  header .menu .container-fluid .collapse .navbar-nav .nav-item .control {
+    color: #0e0f11;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  header .menu .container-fluid .collapse .navbar-nav .nav-item .control {
+    color: #0e0f11;
+  }
+}
+header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
+  color: #0e0f11;
+}
 
 @media only screen and (max-width: 360px) {
   .navbar-toggler-icon {

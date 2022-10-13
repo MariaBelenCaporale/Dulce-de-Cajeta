@@ -4,7 +4,8 @@
 @import '../scss/components/conocermas';
 
 /* NAV */
-header .menu {
+header {
+    .menu {
     @media only screen and (max-width:360px) {
         background: rgb(255 255 255 / 82%);
         width: 100%;
@@ -47,23 +48,54 @@ header .menu {
         z-index: 1;
         margin-top: 0;
     }
+    .container-fluid {
+        .collapse{
+            .navbar-nav{
+                @media only screen and (max-width:360px) {
+                    gap: 0;
+                    --bs-nav-link-padding-y: 0.46rem;
+                }
+                @media only screen and (min-width:361px) and (max-width:480px) {
+                    gap: 16px;
+                }
+                @media only screen and (min-width:481px) and (max-width:768px){
+                    gap: 17px;
+                }
+                @media only screen and (min-width:769px) and (max-width:992px){
+                    gap: 18px;
+                }
+
+                .nav-item {
+                    .control {
+                        color: nth($colores, 4 );
+                        @media only screen and (max-width:360px) {
+                            color: nth($colores, 5 );
+                        }
+
+                        @media only screen and (min-width:361px) and (max-width:480px){
+                            color: nth($colores, 5 );
+                        }
+
+                        @media only screen and (min-width:481px) and (max-width:768px){
+                            color: nth($colores, 5 );
+                        }
+                        
+                        @media only screen and (min-width:769px) and (max-width:992px){
+                            color: nth($colores, 5 );
+                        }
+            
+                        &:hover {
+                            color: nth($colores, 5 );
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 }
 
-header .menu .container-fluid .collapse .navbar-nav {
-    @media only screen and (max-width:360px) {
-        gap: 0;
-    }
-    @media only screen and (min-width:361px) and (max-width:480px) {
-        gap: 16px;
-    }
-    @media only screen and (min-width:481px) and (max-width:768px){
-        gap: 17px;
-    }
-    @media only screen and (min-width:769px) and (max-width:992px){
-        gap: 18px;
-    }
-    
-}
+
 
 .navbar-toggler-icon {
     @media only screen and (max-width:360px) {
@@ -72,11 +104,7 @@ header .menu .container-fluid .collapse .navbar-nav {
     }
 }
 
-.navbar-nav {
-    @media only screen and (max-width:360px) {
-        --bs-nav-link-padding-y: 0.46rem;
-    }
-}
+
 
 /* img */
 section {

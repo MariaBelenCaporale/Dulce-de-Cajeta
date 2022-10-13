@@ -136,13 +136,136 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
   }
 }
 
+@media only screen and (max-width: 360px) {
+  header .menu {
+    background: rgba(255, 255, 255, 0.82);
+    width: 100%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: inline-grid;
+    z-index: 1;
+    margin-top: 0;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 480px) {
+  header .menu {
+    background: rgba(255, 255, 255, 0.82);
+    width: 100%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: inline-grid;
+    z-index: 1;
+    margin-top: 0;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  header .menu {
+    background: rgba(255, 255, 255, 0.82);
+    width: 100%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: inline-grid;
+    z-index: 1;
+    margin-top: 0;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  header .menu {
+    background: rgba(255, 255, 255, 0.82);
+    width: 100%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: inline-grid;
+    z-index: 1;
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  header .menu .container-fluid .collapse .navbar-nav {
+    gap: 0;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 480px) {
+  header .menu .container-fluid .collapse .navbar-nav {
+    gap: 16px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  header .menu .container-fluid .collapse .navbar-nav {
+    gap: 17px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  header .menu .container-fluid .collapse .navbar-nav {
+    gap: 18px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .navbar-toggler-icon {
+    height: 1em;
+    width: 1em;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .navbar-nav {
+    --bs-nav-link-padding-y: 0.46rem;
+  }
+}
+
 /* CARRUSEL */
 .carousel {
   height: 100vh;
   position: relative;
 }
+@media only screen and (max-width: 360px) {
+  .carousel {
+    height: auto;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 480px) {
+  .carousel {
+    height: auto;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .carousel {
+    height: auto;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .carousel {
+    height: auto;
+  }
+}
 .carousel .carousel-inner {
   height: 100vh;
+}
+@media only screen and (max-width: 360px) {
+  .carousel .carousel-inner {
+    height: auto;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 480px) {
+  .carousel .carousel-inner {
+    height: auto;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .carousel .carousel-inner {
+    height: auto;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .carousel .carousel-inner {
+    height: auto;
+  }
 }
 .carousel .carousel-inner .carousel-item h5 {
   display: flex;
@@ -152,8 +275,44 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
   grid-column: 1/3;
   color: #EAEAEA;
   font-size: 3em;
-  font-family: "Comfortaa", cursive;
+  font-family: "Poppins", sans-serif;
   width: 100%;
+}
+@media only screen and (max-width: 360px) {
+  .carousel .carousel-inner .carousel-item h5 {
+    margin-top: 33%;
+    font-size: 1.3rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 480px) {
+  .carousel .carousel-inner .carousel-item h5 {
+    margin-top: 33%;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .carousel .carousel-inner .carousel-item h5 {
+    margin-top: 33%;
+    font-size: 1.6rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .carousel .carousel-inner .carousel-item h5 {
+    margin-top: 33%;
+    font-size: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 }
 
 /* galeria */
@@ -167,11 +326,39 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
 }
 .contenedor-galeria .figure {
   position: relative;
-  height: 250px;
+  height: 320px;
   width: 25%;
   overflow: hidden;
   cursor: pointer;
   margin: 0;
+}
+@media only screen and (max-width: 360px) {
+  .contenedor-galeria .figure {
+    position: relative;
+    height: 157px;
+    width: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 480px) {
+  .contenedor-galeria .figure {
+    height: 183px;
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .contenedor-galeria .figure {
+    height: 263px;
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .contenedor-galeria .figure {
+    height: 340px;
+    width: 50%;
+  }
 }
 .contenedor-galeria .figure img {
   width: 100%;
@@ -181,7 +368,7 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
 .contenedor-galeria .figure img:hover {
   transform: scale(1.3);
 }
-.contenedor-galeria .figure .capa {
+.contenedor-galeria .figure img .capa {
   position: absolute;
   padding-top: 32px;
   top: 0px;
@@ -193,20 +380,21 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
   visibility: hidden;
   text-align: center;
 }
-.contenedor-galeria .figure .capa:hover {
+.contenedor-galeria .figure img .capa:hover {
   opacity: 1;
   visibility: visible;
 }
-.contenedor-galeria .figure .capa h2 {
+.contenedor-galeria .figure img .capa h2 {
   color: #EAEAEA;
   font-weight: 400;
   margin-bottom: 120px;
   transition: all 500ms ease-out;
   margin-top: 30px;
 }
-.contenedor-galeria .figure .capa h2:hover {
+.contenedor-galeria .figure img .capa h2:hover {
   margin-top: 70px;
   margin-bottom: 15px;
+  transition: all 500ms ease-out;
 }
 
 /*# sourceMappingURL=explora.css.map */

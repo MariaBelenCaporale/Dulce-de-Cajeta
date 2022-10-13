@@ -50,21 +50,29 @@ header {
 }
 }
 
-header .menu .container-fluid .collapse .navbar-nav {
-    @media only screen and (max-width:360px) {
-        gap: 0;
+header {
+    .menu{
+        .container-fluid{
+            .collapse{
+                .navbar-nav {
+                    @media only screen and (max-width:360px) {
+                        gap: 0;
+                    }
+                    @media only screen and (min-width:361px) and (max-width:480px) {
+                        gap: 16px;
+                    }
+                    @media only screen and (min-width:481px) and (max-width:768px){
+                        gap: 17px;
+                    }
+                    @media only screen and (min-width:769px) and (max-width:992px){
+                        gap: 18px;
+                    }
+                    
+                }
+            }
+        }
     }
-    @media only screen and (min-width:361px) and (max-width:480px) {
-        gap: 16px;
-    }
-    @media only screen and (min-width:481px) and (max-width:768px){
-        gap: 17px;
-    }
-    @media only screen and (min-width:769px) and (max-width:992px){
-        gap: 18px;
-    }
-    
-}
+}    
 
 .navbar-toggler-icon {
     @media only screen and (max-width:360px) {
@@ -210,7 +218,7 @@ header .menu .container-fluid .collapse .navbar-nav {
             &:hover{
                 transform: scale(1.3);
             }
-        
+        }
 
         .capa {
             position: absolute;
@@ -237,12 +245,12 @@ header .menu .container-fluid .collapse .navbar-nav {
                 margin-top: 30px;
 
                 &:hover{
-                margin-top: 70px;
-                margin-bottom: 15px;
-                transition: all 500ms ease-out;
+                    margin-top: 70px;
+                    margin-bottom: 15px;
+                    transition: all 500ms ease-out;
             }
             }
         }
-        }
+        
     }
 }

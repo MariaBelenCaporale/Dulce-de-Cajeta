@@ -368,7 +368,7 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
 .contenedor-galeria .figure img:hover {
   transform: scale(1.3);
 }
-.contenedor-galeria .figure img .capa {
+.contenedor-galeria .figure .capa {
   position: absolute;
   padding-top: 32px;
   top: 0px;
@@ -380,18 +380,18 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
   visibility: hidden;
   text-align: center;
 }
-.contenedor-galeria .figure img .capa:hover {
+.contenedor-galeria .figure .capa:hover {
   opacity: 1;
   visibility: visible;
 }
-.contenedor-galeria .figure img .capa h2 {
+.contenedor-galeria .figure .capa h2 {
   color: #EAEAEA;
   font-weight: 400;
   margin-bottom: 120px;
   transition: all 500ms ease-out;
   margin-top: 30px;
 }
-.contenedor-galeria .figure img .capa h2:hover {
+.contenedor-galeria .figure .capa h2:hover {
   margin-top: 70px;
   margin-bottom: 15px;
   transition: all 500ms ease-out;

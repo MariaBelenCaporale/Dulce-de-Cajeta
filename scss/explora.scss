@@ -233,17 +233,33 @@ header {
             opacity: 0;
             text-align: center;
 
+            @media only screen and (max-width:360px){
+                padding-top: 8px;
+            }
+
+            @media only screen and (min-width:361px) and (max-width:480px){
+                padding-top: 13px;
+            }
+
+            @media only screen and (min-width:481px) and (max-width:768px){
+                padding-top: 6px;
+            }
+
+            @media only screen and (min-width:769px) and (max-width:992px){
+                padding-top:17px ;
+            }
+
             &:hover{
                 opacity: 1;
                 visibility: visible;
             }
+
         }
 
         .capa {
             h2{
-                color: #EAEAEA;
+                color: nth($colores , 4);
                 font-weight: 400;
-                margin-bottom: 120px;
                 transition: all 500ms ease-out;
                 margin-top: 30%;
 
@@ -257,10 +273,42 @@ header {
 
                 @media only screen and (min-width:481px) and (max-width:768px){
                     margin-top: 25%;
+                    font-size: 2rem;
                 }
 
                 @media only screen and (min-width:769px) and (max-width:992px){
                     margin-top: 25%;
+                }
+            }
+            p {
+                color: nth($colores , 4);
+
+                @media only screen and (max-width:360px){
+                    padding-left: 10px;
+                    text-align: center;
+                    font-size: 0.7rem;
+                    color: #EAEAEA;
+                    padding-right: 10px;
+                }
+
+                @media only screen and (min-width:361px) and (max-width:480px){
+                    padding-left: 30px;
+                    font-size: 0.8rem;
+                    color: #EAEAEA;
+                    padding-right: 30px;
+                }
+
+                @media only screen and (min-width:481px) and (max-width:768px){
+                    color: #EAEAEA;
+                    font-size: 1.1rem;
+                    padding-left: 50px;
+                    padding-right: 50px;
+                }
+
+                @media only screen and (min-width:769px) and (max-width:992px){
+                    font-weight: 400;
+                    font-size: 1.4rem;
+                    color: #EAEAEA;
                 }
             }
     }

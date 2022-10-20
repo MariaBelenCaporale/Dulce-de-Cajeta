@@ -39,7 +39,7 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
   grid-template-rows: 53px 40px 17px;
   grid-template-columns: 25fr 25fr 25fr 25fr;
   color: #EAEAEA;
-  background-color: #17181b;
+  background-color: #0e0f11;
   align-items: center;
 }
 .footer-container .logo-a {
@@ -380,6 +380,26 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
   opacity: 0;
   text-align: center;
 }
+@media only screen and (max-width: 360px) {
+  .figure .capa {
+    padding-top: 8px;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 480px) {
+  .figure .capa {
+    padding-top: 13px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .figure .capa {
+    padding-top: 6px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .figure .capa {
+    padding-top: 17px;
+  }
+}
 .figure .capa:hover {
   opacity: 1;
   visibility: visible;
@@ -387,7 +407,6 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
 .figure .capa h2 {
   color: #EAEAEA;
   font-weight: 400;
-  margin-bottom: 120px;
   transition: all 500ms ease-out;
   margin-top: 30%;
 }
@@ -404,11 +423,47 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .figure .capa h2 {
     margin-top: 25%;
+    font-size: 2rem;
   }
 }
 @media only screen and (min-width: 769px) and (max-width: 992px) {
   .figure .capa h2 {
     margin-top: 25%;
+  }
+}
+.figure .capa p {
+  color: #EAEAEA;
+}
+@media only screen and (max-width: 360px) {
+  .figure .capa p {
+    padding-left: 10px;
+    text-align: center;
+    font-size: 0.7rem;
+    color: #EAEAEA;
+    padding-right: 10px;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 480px) {
+  .figure .capa p {
+    padding-left: 30px;
+    font-size: 0.8rem;
+    color: #EAEAEA;
+    padding-right: 30px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .figure .capa p {
+    color: #EAEAEA;
+    font-size: 1.1rem;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .figure .capa p {
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #EAEAEA;
   }
 }
 

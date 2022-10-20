@@ -1,0 +1,13 @@
+$boton: (
+        color: #EAEAEA;
+        fondo-color: #FF2E63;
+        border: #FF2E63;
+        width: 142px;
+        height: 39px;
+        border-radius: 100px;
+    
+        &:hover {
+            color: #0e0f11;
+            background-color: #08D9D6;
+        }
+)

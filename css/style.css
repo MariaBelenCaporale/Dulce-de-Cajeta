@@ -39,7 +39,7 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
   grid-template-rows: 53px 40px 17px;
   grid-template-columns: 25fr 25fr 25fr 25fr;
   color: #EAEAEA;
-  background-color: #17181b;
+  background-color: #0e0f11;
   align-items: center;
 }
 .footer-container .logo-a {
@@ -881,7 +881,7 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
   min-height: 100vh;
   flex-direction: column;
   gap: 30px;
-  background-color: #0e0f11;
+  background-color: #17181b;
 }
 @media only screen and (max-width: 360px) {
   .form-registro {

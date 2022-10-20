@@ -765,7 +765,7 @@ header {
     min-height: 100vh;
     flex-direction: column;
     gap: 30px;
-    background-color: nth($colores , 5);
+    background-color: nth($colores , 6);
 
     @media only screen and (max-width:360px) {
         grid-template-rows: 70vh auto;

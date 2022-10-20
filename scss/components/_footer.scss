@@ -4,8 +4,8 @@
     display: grid;
     grid-template-rows: 53px 40px 17px;
     grid-template-columns: 25fr 25fr 25fr 25fr;
-    color: #EAEAEA;
-    background-color: #17181b;
+    color: nth($colores , 4);
+    background-color: nth($colores , 5);
     align-items: center;
 
     .logo-a {

@@ -424,7 +424,11 @@ header .menu .container-fluid .collapse .navbar-nav {
 
         p{
             color: nth($colores , 4 );
-            
+        }
+        ul {
+            li{
+                color: nth($colores , 2 );
+            }
         }
     }
 }

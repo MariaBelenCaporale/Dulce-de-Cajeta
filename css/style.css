@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap");
 }
 
 /* NAV */
@@ -189,6 +189,8 @@ header .menu {
 }
 
 header .menu .container-fluid .collapse .navbar-nav {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
   align-items: center;
   gap: 63px;
 }
@@ -315,7 +317,8 @@ header .menu .container-fluid .collapse .navbar-nav .logo-a img {
   grid-column: 1/3;
   color: #EAEAEA;
   font-size: 3em;
-  font-family: "Poppins", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
   width: 100%;
 }
 @media only screen and (max-width: 360px) {
@@ -424,6 +427,7 @@ header .menu .container-fluid .collapse .navbar-nav .logo-a img {
   font-size: 40px;
   line-height: 40px;
   margin: auto;
+  font-family: "Quicksand", sans-serif;
   overflow: hidden;
 }
 @media only screen and (max-width: 360px) {
@@ -546,10 +550,13 @@ header .menu .container-fluid .collapse .navbar-nav .logo-a img {
   }
 }
 #explora-a .fotitos img {
-  width: 90%;
+  width: 100%;
   grid-column: 2/auto;
   grid-row: 1/auto;
   border-radius: 20px;
+  box-shadow: -4px 3px 35px -4px rgba(0, 0, 0, 0.451);
+  -webkit-box-shadow: -4px 3px 35px -4px rgba(0, 0, 0, 0.232);
+  -moz-box-shadow: -4px 3px 35px -4px rgba(0, 0, 0, 0.199);
 }
 @media only screen and (max-width: 360px) {
   #explora-a .fotitos img {
@@ -569,8 +576,9 @@ header .menu .container-fluid .collapse .navbar-nav .logo-a img {
 @media only screen and (min-width: 769px) and (max-width: 992px) {
   #explora-a .fotitos img {
     width: 100%;
-    padding: 21px;
-    border-radius: 41px;
+    height: 100vh;
+    padding: 0;
+    border-radius: 0;
   }
 }
 #explora-a .titulo-a {
@@ -608,9 +616,10 @@ header .menu .container-fluid .collapse .navbar-nav .logo-a img {
   }
 }
 #explora-a .titulo-a h2 {
-  color: #08D9D6;
-  font-weight: 500;
+  color: #FF2E63;
+  font-weight: 100;
   font-size: 2rem;
+  font-family: "Quicksand", sans-serif;
 }
 #explora-a .titulo-a p {
   color: #252A34;
@@ -620,6 +629,7 @@ header .menu .container-fluid .collapse .navbar-nav .logo-a img {
     color: #252A34;
     font-size: 15px;
     font-weight: 300;
+    font-family: "Quicksand", sans-serif;
   }
 }
 #explora-a .titulo-a .zoe-boton {
@@ -634,6 +644,8 @@ header .menu .container-fluid .collapse .navbar-nav .logo-a img {
   border: #FF2E63;
   border-radius: 20pt;
   width: 142px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
 }
 @media only screen and (max-width: 360px) {
   #explora-a .titulo-a .zoe-boton {
@@ -671,7 +683,7 @@ header .menu .container-fluid .collapse .navbar-nav .logo-a img {
   }
 }
 #nosotras-a .nos {
-  width: 70%;
+  width: 100%;
   grid-column: 1;
   grid-row: 1;
 }
@@ -701,10 +713,10 @@ header .menu .container-fluid .collapse .navbar-nav .logo-a img {
 }
 @media only screen and (min-width: 769px) and (max-width: 992px) {
   #nosotras-a .nos img {
-    padding: 21px;
-    border-radius: 41px;
     width: 100%;
-    box-shadow: none;
+    height: 100vh;
+    padding: 0;
+    border-radius: 0;
   }
 }
 #nosotras-a .tipo-nos {
@@ -743,14 +755,16 @@ header .menu .container-fluid .collapse .navbar-nav .logo-a img {
   }
 }
 #nosotras-a .tipo-nos h2 {
-  color: #08D9D6;
-  font-weight: 300;
+  color: #FF2E63;
+  font-weight: 100;
   font-size: 2rem;
+  font-family: "Quicksand", sans-serif;
 }
 @media only screen and (max-width: 360px) {
   #nosotras-a .tipo-nos p {
     color: #EAEAEA;
     font-size: 0.9rem;
+    font-family: "Quicksand", sans-serif;
   }
 }
 #nosotras-a .tipo-nos .nosotras-boton {
@@ -765,6 +779,8 @@ header .menu .container-fluid .collapse .navbar-nav .logo-a img {
   border: #FF2E63;
   border-radius: 20pt;
   width: 142px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
 }
 @media only screen and (max-width: 360px) {
   #nosotras-a .tipo-nos .nosotras-boton {
@@ -802,7 +818,7 @@ header .menu .container-fluid .collapse .navbar-nav .logo-a img {
   }
 }
 #zoe-a .zoe {
-  width: 70%;
+  width: 100%;
   grid-column: 2;
   grid-row: 1;
 }
@@ -814,6 +830,9 @@ header .menu .container-fluid .collapse .navbar-nav .logo-a img {
 #zoe-a .zoe img {
   border-radius: 20px;
   width: 100%;
+  box-shadow: -4px 3px 35px -4px rgba(0, 0, 0, 0.451);
+  -webkit-box-shadow: -4px 3px 35px -4px rgba(0, 0, 0, 0.232);
+  -moz-box-shadow: -4px 3px 35px -4px rgba(0, 0, 0, 0.199);
 }
 @media only screen and (max-width: 360px) {
   #zoe-a .zoe img {
@@ -833,8 +852,9 @@ header .menu .container-fluid .collapse .navbar-nav .logo-a img {
 @media only screen and (min-width: 769px) and (max-width: 992px) {
   #zoe-a .zoe img {
     width: 100%;
-    padding: 21px;
-    border-radius: 41px;
+    height: 100vh;
+    padding: 0;
+    border-radius: 0;
   }
 }
 #zoe-a .tipo-zoe {
@@ -872,12 +892,14 @@ header .menu .container-fluid .collapse .navbar-nav .logo-a img {
   }
 }
 #zoe-a .tipo-zoe h2 {
-  color: #08D9D6;
-  font-weight: 500;
+  color: #FF2E63;
+  font-weight: 100;
   font-size: 2rem;
+  font-family: "Quicksand", sans-serif;
 }
 #zoe-a .tipo-zoe p {
   color: #252A34;
+  font-family: "Quicksand", sans-serif;
 }
 @media only screen and (max-width: 360px) {
   #zoe-a .tipo-zoe p {
@@ -929,9 +951,10 @@ header .menu .container-fluid .collapse .navbar-nav .logo-a img {
   }
 }
 .form-registro h2 {
-  color: #08D9D6;
-  font-weight: 300;
+  color: #FF2E63;
+  font-weight: 100;
   font-size: 2rem;
+  font-family: "Quicksand", sans-serif;
 }
 .form-registro .mas-info {
   text-align: center;
@@ -980,6 +1003,7 @@ header .menu .container-fluid .collapse .navbar-nav .logo-a img {
   pointer-events: none;
   letter-spacing: 0.1em;
   transition: 0.5s;
+  font-family: "Quicksand", sans-serif;
 }
 .form-registro .inputBox i {
   position: absolute;

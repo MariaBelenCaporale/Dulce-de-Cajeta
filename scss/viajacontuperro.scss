@@ -56,6 +56,27 @@ header .menu .container-fluid .collapse .navbar-nav {
                         .logo-a {
                             img {
                                 width: 20%;
+                                @media only screen and (max-width:360px) {
+                                    display: none;
+                                    overflow: hidden;
+                                }
+                                @media only screen and (max-width:360px) {
+                                    display: none;
+                                    overflow: hidden;
+                                }
+                                @media only screen and (min-width:361px) and (max-width:480px) {
+                                    display: none;
+                                    overflow: hidden;
+                                }
+                                @media only screen and (min-width:481px) and (max-width:768px) {
+                                   display: none;
+                                   overflow: hidden;
+                                }
+            
+                                @media only screen and (min-width:769px) and (max-width:992px) {
+                                    display: none;
+                                    overflow: hidden;
+                                }
                             }
                         }
     @media only screen and (max-width:360px) {
@@ -83,6 +104,8 @@ header .menu .container-fluid .collapse .navbar-nav {
 .navbar-nav {
     align-items: center;
     gap: 63px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
     .logo-a {
         img {
             width: 20%;
@@ -263,7 +286,7 @@ header .menu .container-fluid .collapse .navbar-nav {
             }
 
             &:hover{
-                color: nth($colores , 1 );
+                color: nth($colores , 2 );
             }
 
             p{
@@ -271,6 +294,7 @@ header .menu .container-fluid .collapse .navbar-nav {
                 font-size: 1rem;
                 padding-top: 14px;
                 margin-top: 0;
+                font-family: 'Quicksand', sans-serif;
 
                 @media only screen and (max-width:360px) {
                     align-items: center;
@@ -313,7 +337,7 @@ header .menu .container-fluid .collapse .navbar-nav {
 .zoe-container{
     height: 100vh;
     padding: 70px 0 70px 0;
-    background-color: nth($colores , 5 );
+    background-color: nth($colores , 4 );
     justify-items: center;
     align-items: center;
     overflow: hidden;
@@ -323,7 +347,6 @@ header .menu .container-fluid .collapse .navbar-nav {
 
     @media only screen and (max-width:360px) {
         padding: 0;
-        background-color: nth($colores , 5 );
         justify-items: center;
         align-items: center;
         overflow: hidden;
@@ -335,7 +358,6 @@ header .menu .container-fluid .collapse .navbar-nav {
     @media only screen and (min-width:361px) and (max-width:480px) {
         height: 70vh;
         padding: 0; 
-        background-color: nth($colores , 5 );
         justify-items: center;
         align-items: center;
         overflow: hidden;
@@ -347,7 +369,6 @@ header .menu .container-fluid .collapse .navbar-nav {
     @media only screen and (min-width:481px) and (max-width:768px){
     height: 76vh;
     padding: 0; 
-    background-color: nth($colores , 5 );
     justify-items: center;
     align-items: center;
     overflow: hidden;
@@ -359,7 +380,6 @@ header .menu .container-fluid .collapse .navbar-nav {
     @media only screen and (min-width:769px) and (max-width:992px){
         height: 73vh;
         padding: 0; 
-        background-color: nth($colores , 5 );
         justify-items: center;
         align-items: center;
         overflow: hidden;
@@ -392,6 +412,10 @@ header .menu .container-fluid .collapse .navbar-nav {
             img{
                 width: 80%;
                 border-radius: 20px;
+                box-shadow: -4px 3px 35px -4px rgba(0, 0, 0, 0.451);
+            -webkit-box-shadow: -4px 3px 35px -4px rgba(0, 0, 0, 0.232);
+            -moz-box-shadow: -4px 3px 35px -4px rgba(0, 0, 0, 0.199);
+        
 
                 @media only screen and (max-width:360px){
                     display: none;
@@ -433,13 +457,15 @@ header .menu .container-fluid .collapse .navbar-nav {
         }
 
         h2{
-            font-weight: 300;
+            font-weight: 100;
+            font-family: 'Quicksand', sans-serif;
             font-size: 2rem;
-            color: nth($colores , 2 );
+            color: nth($colores , 1 );
         }
 
         p{
-            color: nth($colores , 4 );
+            color: nth($colores , 3 );
+            font-family: 'Quicksand', sans-serif;
         }
         ul {
             li{
@@ -548,6 +574,7 @@ header .menu .container-fluid .collapse .navbar-nav {
 
         img{
             border-radius: 20px;
+            width: 80%;
 
             @media only screen and (max-width:360px){
                 display: none;
@@ -597,12 +624,14 @@ header .menu .container-fluid .collapse .navbar-nav {
         }
 
         h2{
-            color: nth($colores , 2 );
-            font-weight: 300;
+            color: nth($colores , 1 );
+            font-weight: 100;
             font-size: 2rem;
+            font-family: 'Quicksand', sans-serif;
         }
         p{
             color: nth($colores , 4 );
+            font-family: 'Quicksand', sans-serif;
         }
     }
 }

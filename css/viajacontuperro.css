@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap");
 }
 
 /* NAV */
@@ -142,7 +142,7 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 80px 323px;
-  padding: 10px 100px 50px 100px;
+  padding: 99px 100px 50px 100px;
   gap: 30px;
 }
 @media only screen and (max-width: 360px) {
@@ -192,6 +192,7 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
   grid-column: 1/4;
   display: grid;
   justify-content: center;
+  font-family: "Quicksand", sans-serif;
 }
 @media only screen and (max-width: 360px) {
   .conocer-mas h3 {
@@ -222,6 +223,7 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
   width: 493px;
 }
 .conocer-mas .conocer-sec {
+  font-family: "Quicksand", sans-serif;
   justify-content: center;
   grid-column: 2;
   display: grid;
@@ -297,6 +299,36 @@ header .menu .container-fluid .collapse .navbar-nav .logo-a img {
   width: 20%;
 }
 @media only screen and (max-width: 360px) {
+  header .menu .container-fluid .collapse .navbar-nav .logo-a img {
+    display: none;
+    overflow: hidden;
+  }
+}
+@media only screen and (max-width: 360px) {
+  header .menu .container-fluid .collapse .navbar-nav .logo-a img {
+    display: none;
+    overflow: hidden;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 480px) {
+  header .menu .container-fluid .collapse .navbar-nav .logo-a img {
+    display: none;
+    overflow: hidden;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  header .menu .container-fluid .collapse .navbar-nav .logo-a img {
+    display: none;
+    overflow: hidden;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  header .menu .container-fluid .collapse .navbar-nav .logo-a img {
+    display: none;
+    overflow: hidden;
+  }
+}
+@media only screen and (max-width: 360px) {
   header .menu .container-fluid .collapse .navbar-nav {
     gap: 0;
   }
@@ -327,6 +359,8 @@ header .menu .container-fluid .collapse .navbar-nav .logo-a img {
 .navbar-nav {
   align-items: center;
   gap: 63px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
 }
 .navbar-nav .logo-a img {
   width: 20%;
@@ -526,13 +560,14 @@ section .img-fluid {
   }
 }
 .contador-iconos .iconos .orden:hover {
-  color: #FF2E63;
+  color: #08D9D6;
 }
 .contador-iconos .iconos .orden p {
   text-align: center;
   font-size: 1rem;
   padding-top: 14px;
   margin-top: 0;
+  font-family: "Quicksand", sans-serif;
 }
 @media only screen and (max-width: 360px) {
   .contador-iconos .iconos .orden p {
@@ -575,7 +610,7 @@ section .img-fluid {
 .zoe-container {
   height: 100vh;
   padding: 70px 0 70px 0;
-  background-color: #0e0f11;
+  background-color: #EAEAEA;
   justify-items: center;
   align-items: center;
   overflow: hidden;
@@ -586,7 +621,6 @@ section .img-fluid {
 @media only screen and (max-width: 360px) {
   .zoe-container {
     padding: 0;
-    background-color: #0e0f11;
     justify-items: center;
     align-items: center;
     overflow: hidden;
@@ -600,7 +634,6 @@ section .img-fluid {
   .zoe-container {
     height: 70vh;
     padding: 0;
-    background-color: #0e0f11;
     justify-items: center;
     align-items: center;
     overflow: hidden;
@@ -613,7 +646,6 @@ section .img-fluid {
   .zoe-container {
     height: 76vh;
     padding: 0;
-    background-color: #0e0f11;
     justify-items: center;
     align-items: center;
     overflow: hidden;
@@ -626,7 +658,6 @@ section .img-fluid {
   .zoe-container {
     height: 73vh;
     padding: 0;
-    background-color: #0e0f11;
     justify-items: center;
     align-items: center;
     overflow: hidden;
@@ -661,6 +692,9 @@ section .img-fluid {
 .zoe-container .zoe img {
   width: 80%;
   border-radius: 20px;
+  box-shadow: -4px 3px 35px -4px rgba(0, 0, 0, 0.451);
+  -webkit-box-shadow: -4px 3px 35px -4px rgba(0, 0, 0, 0.232);
+  -moz-box-shadow: -4px 3px 35px -4px rgba(0, 0, 0, 0.199);
 }
 @media only screen and (max-width: 360px) {
   .zoe-container .zoe img {
@@ -707,12 +741,14 @@ section .img-fluid {
   }
 }
 .zoe-container .tipo-zoe h2 {
-  font-weight: 300;
+  font-weight: 100;
+  font-family: "Quicksand", sans-serif;
   font-size: 2rem;
-  color: #08D9D6;
+  color: #FF2E63;
 }
 .zoe-container .tipo-zoe p {
-  color: #EAEAEA;
+  color: #252A34;
+  font-family: "Quicksand", sans-serif;
 }
 .zoe-container .tipo-zoe ul li {
   color: #08D9D6;
@@ -824,6 +860,7 @@ section .img-fluid {
 }
 .entrenamiento-container .entrena img {
   border-radius: 20px;
+  width: 80%;
 }
 @media only screen and (max-width: 360px) {
   .entrenamiento-container .entrena img {
@@ -880,12 +917,14 @@ section .img-fluid {
   }
 }
 .entrenamiento-container .tipo-entrena h2 {
-  color: #08D9D6;
-  font-weight: 300;
+  color: #FF2E63;
+  font-weight: 100;
   font-size: 2rem;
+  font-family: "Quicksand", sans-serif;
 }
 .entrenamiento-container .tipo-entrena p {
   color: #EAEAEA;
+  font-family: "Quicksand", sans-serif;
 }
 
 /*# sourceMappingURL=viajacontuperro.css.map */

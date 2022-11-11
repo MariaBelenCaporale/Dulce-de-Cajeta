@@ -59,6 +59,8 @@ header {
         .container-fluid {
             .collapse {
                 .navbar-nav {
+                    font-family: 'Quicksand', sans-serif;
+                    font-weight: 300;
                     align-items: center;
                     gap: 63px;
                     .logo-a {
@@ -172,7 +174,8 @@ header {
                 grid-column: 1/3;
                 color: nth($colores, 4);
                 font-size: 3em;
-                font-family: 'Poppins', sans-serif;
+                font-family: 'Quicksand', sans-serif;
+                font-weight: 600;
                 width: 100%;
 
 
@@ -284,6 +287,7 @@ header {
         font-size: 40px;
         line-height: 40px;
         margin: auto;
+        font-family: 'Quicksand', sans-serif;
         overflow: hidden;
 
         @media only screen and (max-width:360px) {
@@ -422,10 +426,14 @@ header {
     }
 
     .fotitos img {
-        width: 90%;
+        width: 100%;
         grid-column: 2 / auto;
         grid-row: 1 / auto;
         border-radius: 20px;
+        box-shadow: -4px 3px 35px -4px rgba(0, 0, 0, 0.451);
+        -webkit-box-shadow: -4px 3px 35px -4px rgba(0, 0, 0, 0.232);
+        -moz-box-shadow: -4px 3px 35px -4px rgba(0, 0, 0, 0.199);
+        
 
 
         @media only screen and (max-width:360px) {
@@ -442,8 +450,9 @@ header {
 
         @media only screen and (min-width:769px) and (max-width:992px) {
             width: 100%;
-            padding: 21px;
-            border-radius: 41px;
+            height: 100vh;
+            padding: 0;
+            border-radius: 0;
         }
 
     }
@@ -479,9 +488,10 @@ header {
         }
 
         h2 {
-            color: nth($colores, 2);
-            font-weight: 500;
+            color: nth($colores, 1);
+            font-weight: 100;
             font-size: 2rem;
+            font-family: 'Quicksand', sans-serif;
         }
 
         p {
@@ -491,6 +501,7 @@ header {
                 color: nth($colores, 3);
                 font-size: 15px;
                 font-weight: 300;
+                font-family: 'Quicksand', sans-serif;
             }
         }
 
@@ -506,6 +517,8 @@ header {
             border: nth($colores, 1);
             border-radius: 20pt;
             width: 142px;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 500;
 
             @media only screen and (max-width:360px) {
                 height: 33px;
@@ -546,7 +559,7 @@ header {
     }
 
     .nos {
-        width: 70%;
+        width: 100%;
         grid-column: 1;
         grid-row: 1;
 
@@ -572,10 +585,10 @@ header {
             }
 
             @media only screen and (min-width:769px) and (max-width:992px) {
-                padding: 21px;
-                border-radius: 41px;
                 width: 100%;
-                box-shadow: none;
+                height: 100vh;
+                padding: 0;
+                border-radius: 0;
             }
         }
     }
@@ -612,15 +625,17 @@ header {
         }
 
         h2 {
-            color: nth($colores , 2);
-            font-weight: 300;
+            color: nth($colores , 1);
+            font-weight: 100;
             font-size: 2rem;
+            font-family: 'Quicksand', sans-serif;
         }
 
         p {
             @media only screen and (max-width:360px) {
                 color: nth($colores , 4);
                 font-size: 0.9rem;
+                font-family: 'Quicksand', sans-serif;
             }
         }
 
@@ -636,6 +651,8 @@ header {
             border: nth($colores, 1);
             border-radius: 20pt;
             width: 142px;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 500;
 
             @media only screen and (max-width:360px) {
                 height: 33px;
@@ -675,7 +692,7 @@ header {
     }
 
     .zoe {
-        width: 70%;
+        width: 100%;
         grid-column: 2;
         grid-row: 1;
 
@@ -686,6 +703,10 @@ header {
         img {
             border-radius: 20px;
             width: 100%;
+            box-shadow: -4px 3px 35px -4px rgba(0, 0, 0, 0.451);
+            -webkit-box-shadow: -4px 3px 35px -4px rgba(0, 0, 0, 0.232);
+            -moz-box-shadow: -4px 3px 35px -4px rgba(0, 0, 0, 0.199);
+        
 
             @media only screen and (max-width:360px) {
                 visibility: hidden;
@@ -701,8 +722,9 @@ header {
 
             @media only screen and (min-width:769px) and (max-width:992px) {
                 width: 100%;
-                padding: 21px;
-                border-radius: 41px;
+                height: 100vh;
+                padding: 0;
+                border-radius: 0;
             }
         }
     }
@@ -738,13 +760,15 @@ header {
         }
 
         h2 {
-            color: nth($colores , 2);
-            font-weight: 500;
+            color: nth($colores , 1);
+            font-weight: 100;
             font-size: 2rem;
+            font-family: 'Quicksand', sans-serif;
         }
 
         p {
             color: nth($colores , 3);
+            font-family: 'Quicksand', sans-serif;
 
 
             @media only screen and (max-width:360px) {
@@ -801,9 +825,10 @@ header {
     }
 
     h2 {
-        color: nth($colores , 2);
-        font-weight: 300;
+        color: nth($colores , 1);
+        font-weight: 100;
         font-size: 2rem;
+        font-family: 'Quicksand', sans-serif;
     }
 
     .mas-info {
@@ -855,6 +880,7 @@ header {
             pointer-events: none;
             letter-spacing: 0.1em;
             transition: 0.5s;
+            font-family: 'Quicksand', sans-serif;
         }
 
         i {

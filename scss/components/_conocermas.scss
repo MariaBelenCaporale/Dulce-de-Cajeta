@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 80px 323px;
-    padding: 10px 100px 50px 100px;
+    padding: 99px 100px 50px 100px;
     gap: 30px;
 
         @media only screen and (max-width:360px){
@@ -49,6 +49,7 @@
         grid-column: 1/4;
         display: grid;
         justify-content: center;
+        font-family: 'Quicksand', sans-serif;
     
 
             @media only screen and (max-width:360px){
@@ -79,6 +80,7 @@
         }
     }
     .conocer-sec {
+        font-family: 'Quicksand', sans-serif;
         justify-content: center;
         grid-column: 2;
         display: grid;

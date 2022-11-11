@@ -59,9 +59,32 @@ header {
                 .navbar-nav {
                     gap: 63px;
                     align-items: center;
+                    font-family: 'Quicksand', sans-serif;
+                    font-weight: 300;
                     .logo-a {
                         img {
                             width: 20%;
+                            @media only screen and (max-width:360px) {
+                                display: none;
+                                overflow: hidden;
+                            }
+                            @media only screen and (max-width:360px) {
+                                display: none;
+                                overflow: hidden;
+                            }
+                            @media only screen and (min-width:361px) and (max-width:480px) {
+                                display: none;
+                                overflow: hidden;
+                            }
+                            @media only screen and (min-width:481px) and (max-width:768px) {
+                               display: none;
+                               overflow: hidden;
+                            }
+        
+                            @media only screen and (min-width:769px) and (max-width:992px) {
+                                display: none;
+                                overflow: hidden;
+                            }
                         }
                     }
                     @media only screen and (max-width:360px) {
@@ -139,7 +162,8 @@ header {
                 grid-column: 1/3;
                 color: nth($colores, 4);
                 font-size: 3em;
-                font-family: 'Poppins', sans-serif;
+                font-family: 'Quicksand', sans-serif;
+                font-weight: 600;
                 width: 100%;
 
 

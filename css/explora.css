@@ -21,7 +21,7 @@ header .menu {
   justify-content: center;
   display: inline-grid;
   z-index: 1;
-  margin-top: 30px;
+  padding: 17px;
 }
 header .menu .container-fluid .collapse .navbar-nav {
   gap: 90px;
@@ -136,6 +136,9 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
   }
 }
 
+header .menu {
+  background-color: #EAEAEA;
+}
 @media only screen and (max-width: 360px) {
   header .menu {
     background: rgba(255, 255, 255, 0.82);
@@ -185,6 +188,13 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
   }
 }
 
+header .menu .container-fluid .collapse .navbar-nav {
+  gap: 63px;
+  align-items: center;
+}
+header .menu .container-fluid .collapse .navbar-nav .logo-a img {
+  width: 20%;
+}
 @media only screen and (max-width: 360px) {
   header .menu .container-fluid .collapse .navbar-nav {
     gap: 0;

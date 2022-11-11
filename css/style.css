@@ -21,7 +21,7 @@ header .menu {
   justify-content: center;
   display: inline-grid;
   z-index: 1;
-  margin-top: 30px;
+  padding: 17px;
 }
 header .menu .container-fluid .collapse .navbar-nav {
   gap: 90px;
@@ -136,6 +136,9 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
   }
 }
 
+header .menu {
+  background-color: #EAEAEA;
+}
 @media only screen and (max-width: 360px) {
   header .menu {
     background: rgba(255, 255, 255, 0.82);
@@ -185,6 +188,43 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
   }
 }
 
+header .menu .container-fluid .collapse .navbar-nav {
+  align-items: center;
+  gap: 63px;
+}
+header .menu .container-fluid .collapse .navbar-nav .logo-a img {
+  width: 20%;
+}
+@media only screen and (max-width: 360px) {
+  header .menu .container-fluid .collapse .navbar-nav .logo-a img {
+    display: none;
+    overflow: hidden;
+  }
+}
+@media only screen and (max-width: 360px) {
+  header .menu .container-fluid .collapse .navbar-nav .logo-a img {
+    display: none;
+    overflow: hidden;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 480px) {
+  header .menu .container-fluid .collapse .navbar-nav .logo-a img {
+    display: none;
+    overflow: hidden;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  header .menu .container-fluid .collapse .navbar-nav .logo-a img {
+    display: none;
+    overflow: hidden;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  header .menu .container-fluid .collapse .navbar-nav .logo-a img {
+    display: none;
+    overflow: hidden;
+  }
+}
 @media only screen and (max-width: 360px) {
   header .menu .container-fluid .collapse .navbar-nav {
     gap: 0;
@@ -487,7 +527,7 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
 
 /*galeria*/
 #explora-a {
-  background-color: #0e0f11;
+  background-color: #EAEAEA;
   justify-items: center;
   align-items: center;
   overflow: hidden;
@@ -569,15 +609,15 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
 }
 #explora-a .titulo-a h2 {
   color: #08D9D6;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 2rem;
 }
 #explora-a .titulo-a p {
-  color: #EAEAEA;
+  color: #252A34;
 }
 @media only screen and (max-width: 360px) {
   #explora-a .titulo-a p {
-    color: #EAEAEA;
+    color: #252A34;
     font-size: 15px;
     font-weight: 300;
   }
@@ -743,7 +783,7 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
 
 /* ZOE */
 #zoe-a {
-  background-color: #0e0f11;
+  background-color: #EAEAEA;
   justify-items: center;
   align-items: center;
   overflow: hidden;
@@ -833,15 +873,15 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
 }
 #zoe-a .tipo-zoe h2 {
   color: #08D9D6;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 2rem;
 }
 #zoe-a .tipo-zoe p {
-  color: #EAEAEA;
+  color: #252A34;
 }
 @media only screen and (max-width: 360px) {
   #zoe-a .tipo-zoe p {
-    color: #EAEAEA;
+    color: #252A34;
     font-size: 0.9rem;
   }
 }

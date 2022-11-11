@@ -5,8 +5,9 @@
 
 
 header {
-
     .menu {
+        background-color:#EAEAEA;
+
         @media only screen and (max-width:360px) {
             background: rgb(255 255 255 / 82%);
             width: 100%;
@@ -58,6 +59,34 @@ header {
         .container-fluid {
             .collapse {
                 .navbar-nav {
+                    align-items: center;
+                    gap: 63px;
+                    .logo-a {
+                        img {
+                            width: 20%;
+                            @media only screen and (max-width:360px) {
+                                display: none;
+                                overflow: hidden;
+                            }
+                            @media only screen and (max-width:360px) {
+                                display: none;
+                                overflow: hidden;
+                            }
+                            @media only screen and (min-width:361px) and (max-width:480px) {
+                                display: none;
+                                overflow: hidden;
+                            }
+                            @media only screen and (min-width:481px) and (max-width:768px) {
+                               display: none;
+                               overflow: hidden;
+                            }
+        
+                            @media only screen and (min-width:769px) and (max-width:992px) {
+                                display: none;
+                                overflow: hidden;
+                            }
+                        }
+                    }
                     @media only screen and (max-width:360px) {
                         gap: 0;
                     }
@@ -376,7 +405,7 @@ header {
 /*galeria*/
 
 #explora-a {
-    background-color: nth($colores, 5);
+    background-color: nth($colores, 4);
     justify-items: center;
     align-items: center;
     overflow: hidden;
@@ -451,15 +480,15 @@ header {
 
         h2 {
             color: nth($colores, 2);
-            font-weight: 300;
+            font-weight: 500;
             font-size: 2rem;
         }
 
         p {
-            color: nth($colores, 4);
+            color: nth($colores, 3);
 
             @media only screen and (max-width:360px) {
-                color: nth($colores, 4);
+                color: nth($colores, 3);
                 font-size: 15px;
                 font-weight: 300;
             }
@@ -629,7 +658,7 @@ header {
 /* ZOE */
 
 #zoe-a {
-    background-color: nth($colores, 5);
+    background-color: nth($colores, 4);
     justify-items: center;
     align-items: center;
     overflow: hidden;
@@ -710,16 +739,16 @@ header {
 
         h2 {
             color: nth($colores , 2);
-            font-weight: 300;
+            font-weight: 500;
             font-size: 2rem;
         }
 
         p {
-            color: nth($colores , 4);
+            color: nth($colores , 3);
 
 
             @media only screen and (max-width:360px) {
-                color: nth($colores , 4);
+                color: nth($colores , 3);
                 font-size: 0.9rem;
             }
 

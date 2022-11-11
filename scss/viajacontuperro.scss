@@ -4,6 +4,8 @@
 @import '../scss/components/conocermas';
 
 header .menu {
+    background-color:#EAEAEA;
+
     @media only screen and (max-width:360px) {
         background: rgb(255 255 255 / 82%);
         width: 100%;
@@ -49,6 +51,13 @@ header .menu {
 }
 
 header .menu .container-fluid .collapse .navbar-nav {
+                        gap: 63px;
+                        align-items: center;
+                        .logo-a {
+                            img {
+                                width: 20%;
+                            }
+                        }
     @media only screen and (max-width:360px) {
         gap: 0;
     }
@@ -72,6 +81,13 @@ header .menu .container-fluid .collapse .navbar-nav {
 }
 
 .navbar-nav {
+    align-items: center;
+    gap: 63px;
+    .logo-a {
+        img {
+            width: 20%;
+        }
+    }
     @media only screen and (max-width:360px) {
         --bs-nav-link-padding-y: 0.46rem;
     }

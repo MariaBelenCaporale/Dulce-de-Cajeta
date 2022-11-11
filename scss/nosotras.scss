@@ -6,6 +6,8 @@
 /* NAV */
 header {
     .menu {
+        background-color:#EAEAEA;
+
     @media only screen and (max-width:360px) {
         background: rgb(255 255 255 / 82%);
         width: 100%;
@@ -51,6 +53,13 @@ header {
     .container-fluid {
         .collapse{
             .navbar-nav{
+                align-items: center;
+                gap: 63px;
+                .logo-a {
+                    img {
+                        width: 20%;
+                    }
+                }
                 @media only screen and (max-width:360px) {
                     gap: 0;
                     --bs-nav-link-padding-y: 0.46rem;
@@ -67,7 +76,7 @@ header {
 
                 .nav-item {
                     .control {
-                        color: nth($colores, 4 );
+                        color: nth($colores, 5 );
                         @media only screen and (max-width:360px) {
                             color: nth($colores, 5 );
                         }

@@ -632,6 +632,13 @@ header .menu .container-fluid .collapse .navbar-nav .logo-a img {
     font-family: "Quicksand", sans-serif;
   }
 }
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  #explora-a .titulo-a p {
+    color: #252A34;
+    width: 90%;
+    font-family: "Quicksand", sans-serif;
+  }
+}
 #explora-a .titulo-a .zoe-boton {
   padding-top: 100p;
   margin-top: 44px;
@@ -695,7 +702,6 @@ header .menu .container-fluid .collapse .navbar-nav .logo-a img {
   }
 }
 #nosotras-a .nos img {
-  border-radius: 20px;
   width: 100%;
   box-shadow: -4px 3px 35px -4px rgba(0, 0, 0, 0.813);
   -webkit-box-shadow: -4px 3px 35px -4px rgba(0, 0, 0, 0.499);
@@ -764,6 +770,13 @@ header .menu .container-fluid .collapse .navbar-nav .logo-a img {
   #nosotras-a .tipo-nos p {
     color: #EAEAEA;
     font-size: 0.9rem;
+    font-family: "Quicksand", sans-serif;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  #nosotras-a .tipo-nos p {
+    color: #EAEAEA;
+    width: 90%;
     font-family: "Quicksand", sans-serif;
   }
 }
@@ -905,6 +918,13 @@ header .menu .container-fluid .collapse .navbar-nav .logo-a img {
   #zoe-a .tipo-zoe p {
     color: #252A34;
     font-size: 0.9rem;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  #zoe-a .tipo-zoe p {
+    color: #252A34;
+    width: 90%;
+    font-family: "Quicksand", sans-serif;
   }
 }
 #zoe-a .tipo-zoe .zoe-boton {

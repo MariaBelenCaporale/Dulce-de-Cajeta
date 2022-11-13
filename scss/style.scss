@@ -503,6 +503,11 @@ header {
                 font-weight: 300;
                 font-family: 'Quicksand', sans-serif;
             }
+            @media only screen and (min-width:769px) and (max-width:992px){
+                color: nth($colores, 3); 
+                width: 90%;
+                font-family: 'Quicksand', sans-serif;
+            }
         }
 
         .zoe-boton {
@@ -570,7 +575,7 @@ header {
         }
 
         img {
-            border-radius: 20px;
+
             width: 100%;
             box-shadow: -4px 3px 35px -4px rgba(0, 0, 0, 0.813);
             -webkit-box-shadow: -4px 3px 35px -4px rgba(0, 0, 0, 0.499);
@@ -635,6 +640,12 @@ header {
             @media only screen and (max-width:360px) {
                 color: nth($colores , 4);
                 font-size: 0.9rem;
+                font-family: 'Quicksand', sans-serif;
+            }
+
+            @media only screen and (min-width:769px) and (max-width:992px){
+                color:nth($colores , 4); 
+                width: 90%;
                 font-family: 'Quicksand', sans-serif;
             }
         }
@@ -774,6 +785,12 @@ header {
             @media only screen and (max-width:360px) {
                 color: nth($colores , 3);
                 font-size: 0.9rem;
+            }
+
+            @media only screen and (min-width:769px) and (max-width:992px){
+                color:nth($colores , 3); 
+                width: 90%;
+                font-family: 'Quicksand', sans-serif;
             }
 
         }

@@ -316,12 +316,12 @@ header .menu .container-fluid .collapse .navbar-nav .logo-a img {
 }
 @media only screen and (min-width: 361px) and (max-width: 480px) {
   header .menu .container-fluid .collapse .navbar-nav {
-    gap: 16px;
+    gap: 9px;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   header .menu .container-fluid .collapse .navbar-nav {
-    gap: 17px;
+    gap: 51px;
   }
 }
 @media only screen and (min-width: 769px) and (max-width: 992px) {

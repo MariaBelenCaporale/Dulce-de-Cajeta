@@ -53,11 +53,14 @@ header {
     .container-fluid {
         .collapse{
             .navbar-nav{
+                font-family: "Quicksand", sans-serif;
+                font-weight: 300;
+                padding-top: 10px;
                 align-items: center;
                 gap: 63px;
-                font-family: 'Quicksand', sans-serif;
-                font-weight: 300;
+                justify-content: center;
                 .logo-a {
+                    width: 16%;
                     img {
                         width: 20%;
                         @media only screen and (max-width:360px) {

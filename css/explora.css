@@ -189,10 +189,15 @@ header .menu {
 }
 
 header .menu .container-fluid .collapse .navbar-nav {
-  gap: 63px;
-  align-items: center;
   font-family: "Quicksand", sans-serif;
   font-weight: 300;
+  padding-top: 10px;
+  align-items: center;
+  gap: 63px;
+  justify-content: center;
+}
+header .menu .container-fluid .collapse .navbar-nav .logo-a {
+  width: 16%;
 }
 header .menu .container-fluid .collapse .navbar-nav .logo-a img {
   width: 20%;
@@ -369,7 +374,7 @@ header .menu .container-fluid .collapse .navbar-nav .logo-a img {
 }
 .contenedor-galeria .figure {
   position: relative;
-  height: 320px;
+  height: 361px;
   width: 25%;
   overflow: hidden;
   cursor: pointer;

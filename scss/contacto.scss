@@ -66,27 +66,6 @@ header {
                             width: 16%;
                             img {
                                 width: 20%;
-                                @media only screen and (max-width:360px) {
-                                    display: none;
-                                    overflow: hidden;
-                                }
-                                @media only screen and (max-width:360px) {
-                                    display: none;
-                                    overflow: hidden;
-                                }
-                                @media only screen and (min-width:361px) and (max-width:480px) {
-                                    display: none;
-                                    overflow: hidden;
-                                }
-                                @media only screen and (min-width:481px) and (max-width:768px) {
-                                   display: none;
-                                   overflow: hidden;
-                                }
-            
-                                @media only screen and (min-width:769px) and (max-width:992px) {
-                                    display: none;
-                                    overflow: hidden;
-                                }
                             }
                         }
     @media only screen and (max-width:360px) {
@@ -127,6 +106,22 @@ header {
         }
     }
 }
+}
+
+
+.icono-logo {
+    @media only screen and (max-width:360px) {
+        display: none;
+    }
+   
+
+    @media only screen and (min-width:361px) and (max-width:480px) {
+        display: none;
+    }
+
+    @media only screen and (min-width:481px) and (max-width:768px) {
+       display: none;
+    }
 }
 
 

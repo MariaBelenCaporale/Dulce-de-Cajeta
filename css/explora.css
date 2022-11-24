@@ -203,36 +203,6 @@ header .menu .container-fluid .collapse .navbar-nav .logo-a img {
   width: 20%;
 }
 @media only screen and (max-width: 360px) {
-  header .menu .container-fluid .collapse .navbar-nav .logo-a img {
-    display: none;
-    overflow: hidden;
-  }
-}
-@media only screen and (max-width: 360px) {
-  header .menu .container-fluid .collapse .navbar-nav .logo-a img {
-    display: none;
-    overflow: hidden;
-  }
-}
-@media only screen and (min-width: 361px) and (max-width: 480px) {
-  header .menu .container-fluid .collapse .navbar-nav .logo-a img {
-    display: none;
-    overflow: hidden;
-  }
-}
-@media only screen and (min-width: 481px) and (max-width: 768px) {
-  header .menu .container-fluid .collapse .navbar-nav .logo-a img {
-    display: none;
-    overflow: hidden;
-  }
-}
-@media only screen and (min-width: 769px) and (max-width: 992px) {
-  header .menu .container-fluid .collapse .navbar-nav .logo-a img {
-    display: none;
-    overflow: hidden;
-  }
-}
-@media only screen and (max-width: 360px) {
   header .menu .container-fluid .collapse .navbar-nav {
     gap: 0;
   }
@@ -250,6 +220,22 @@ header .menu .container-fluid .collapse .navbar-nav .logo-a img {
 @media only screen and (min-width: 769px) and (max-width: 992px) {
   header .menu .container-fluid .collapse .navbar-nav {
     gap: 18px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .icono-logo {
+    display: none;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 480px) {
+  .icono-logo {
+    display: none;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .icono-logo {
+    display: none;
   }
 }
 
@@ -398,13 +384,13 @@ header .menu .container-fluid .collapse .navbar-nav .logo-a img {
 }
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .contenedor-galeria .figure {
-    height: 263px;
+    height: 50vh;
     width: 50%;
   }
 }
 @media only screen and (min-width: 769px) and (max-width: 992px) {
   .contenedor-galeria .figure {
-    height: 340px;
+    height: 70vh;
     width: 50%;
   }
 }

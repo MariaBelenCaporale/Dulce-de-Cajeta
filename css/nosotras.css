@@ -211,16 +211,19 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
   box-shadow: -4px 3px 35px -4px rgba(0, 0, 0, 0.36);
   -webkit-box-shadow: -4px 3px 35px -4px rgba(0, 0, 0, 0.36);
   -moz-box-shadow: -4px 3px 35px -4px rgba(0, 0, 0, 0.36);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .conocer-mas .mas .uno {
   width: 390px;
   height: 45vh;
 }
 .conocer-mas .mas .dos {
-  width: 392px;
+  width: 625px;
 }
 .conocer-mas .mas .tres {
-  width: 390px;
+  width: 493px;
 }
 .conocer-mas .conocer-sec {
   font-family: "Quicksand", sans-serif;
@@ -306,36 +309,6 @@ header .menu .container-fluid .collapse .navbar-nav .logo-a img {
   width: 20%;
 }
 @media only screen and (max-width: 360px) {
-  header .menu .container-fluid .collapse .navbar-nav .logo-a img {
-    display: none;
-    overflow: hidden;
-  }
-}
-@media only screen and (max-width: 360px) {
-  header .menu .container-fluid .collapse .navbar-nav .logo-a img {
-    display: none;
-    overflow: hidden;
-  }
-}
-@media only screen and (min-width: 361px) and (max-width: 480px) {
-  header .menu .container-fluid .collapse .navbar-nav .logo-a img {
-    display: none;
-    overflow: hidden;
-  }
-}
-@media only screen and (min-width: 481px) and (max-width: 768px) {
-  header .menu .container-fluid .collapse .navbar-nav .logo-a img {
-    display: none;
-    overflow: hidden;
-  }
-}
-@media only screen and (min-width: 769px) and (max-width: 992px) {
-  header .menu .container-fluid .collapse .navbar-nav .logo-a img {
-    display: none;
-    overflow: hidden;
-  }
-}
-@media only screen and (max-width: 360px) {
   header .menu .container-fluid .collapse .navbar-nav {
     gap: 0;
     --bs-nav-link-padding-y: 0.46rem;
@@ -381,6 +354,22 @@ header .menu .container-fluid .collapse .navbar-nav .nav-item .control {
 }
 header .menu .container-fluid .collapse .navbar-nav .nav-item .control:hover {
   color: #FF2E63;
+}
+
+@media only screen and (max-width: 360px) {
+  .icono-logo {
+    display: none;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 480px) {
+  .icono-logo {
+    display: none;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .icono-logo {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 360px) {

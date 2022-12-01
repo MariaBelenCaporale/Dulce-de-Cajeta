@@ -64,21 +64,28 @@ header {
                         justify-content: center;
                         .logo-a {
                             width: 16%;
+                            @media only screen and (min-width:769px) and (max-width:992px) {
+                                width: 0;
+                            }
                             img {
                                 width: 55%;
                             }
                         }
     @media only screen and (max-width:360px) {
         gap: 0;
+        align-items: flex-start;
     }
     @media only screen and (min-width:361px) and (max-width:480px) {
         gap: 16px;
+        align-items: flex-start;
     }
     @media only screen and (min-width:481px) and (max-width:768px){
         gap: 17px;
+        align-items: flex-start;
     }
     @media only screen and (min-width:769px) and (max-width:992px){
         gap: 18px;
+        align-items: flex-start;
     }
 
     .nav-item {
@@ -155,30 +162,30 @@ header {
 
     .mas-info {
         text-align: center;
-        width: 30%;
+
+        @media only screen and (max-width:360px) { 
+            width: 100%;
+        }
 
         @media only screen and (min-width:361px) and (max-width:480px) {
             text-align: center;
-            width: 90%;
+            width: 100%;
         }
 
         @media only screen and (min-width:769px) and (max-width:992px) {
-            width: 60%;
+            width: 50%;
         }
+
 
         p {
             color: nth($colores , 4);
-
-            @media only screen and (max-width:360px) {
-                display: none;
-            }
         }
     }
 
 
     .mas-info {
         text-align: center;
-        width: 30%;
+
 
         p {
             color: nth($colores , 4);

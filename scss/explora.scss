@@ -57,6 +57,9 @@ header {
     .menu{
         z-index: 2;
         .container-fluid{
+            .navbar-toggler{
+                --bs-navbar-toggler-focus-width: none;
+            }
             .collapse{
                 .navbar-nav {
                     font-family: "Quicksand", sans-serif;
@@ -65,8 +68,12 @@ header {
                     align-items: center;
                     gap: 63px;
                     justify-content: center;
+                    align-items: flex-start;
                     .logo-a {
                         width: 16%;
+                        @media only screen and (min-width:769px) and (max-width:992px) {
+                            width: 0;
+                        }
                         img {
                             width: 55%;
                             
@@ -75,15 +82,19 @@ header {
 
                     @media only screen and (max-width:360px) {
                         gap: 0;
+                        align-items: flex-start;
                     }
                     @media only screen and (min-width:361px) and (max-width:480px) {
                         gap: 7px;
+                        align-items: flex-start;
                     }
                     @media only screen and (min-width:481px) and (max-width:768px){
                         gap: 45px;
+                        align-items: flex-start;
                     }
                     @media only screen and (min-width:769px) and (max-width:992px){
                         gap: 18px;
+                        align-items: flex-start;
                     }
                 
                 }
@@ -212,7 +223,7 @@ header {
     }
 
     @media only screen and (min-width:361px) and (max-width:480px) {
-        height: 10vh;
+        height: 14vh;
     }
 
     @media only screen and (min-width:481px) and (max-width:768px) {
@@ -235,10 +246,12 @@ header {
         @media only screen and (max-width:360px) {
             justify-content: center;
             font-size: 1rem;
+            padding-bottom: 0;
         }
 
         @media only screen and (min-width:361px) and (max-width:480px) {
             font-size: 1.5rem;
+            padding-bottom: 0;
         }
 
         @media only screen and (min-width:481px) and (max-width:768px) {
@@ -360,7 +373,7 @@ header {
                 }
 
                 @media only screen and (min-width:769px) and (max-width:992px){
-                    margin-top: 25%;
+                    margin-top: 50%;
                 }
             }
             p {

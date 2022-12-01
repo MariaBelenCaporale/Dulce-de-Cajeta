@@ -67,25 +67,32 @@ header {
                     justify-content: center;
                     .logo-a {
                         width: 16%;
+
+                        @media only screen and (min-width:769px) and (max-width:992px) {
+                            width: 0;
+                        }
                         img {
                             width: 55%;
-                            
                         }
                     }
                     @media only screen and (max-width:360px) {
                         gap: 5px;
+                        align-items: flex-start;
                     }
 
                     @media only screen and (min-width:361px) and (max-width:480px) {
                         gap: 7px;
+                        align-items: flex-start;
                     }
 
                     @media only screen and (min-width:481px) and (max-width:768px) {
                         gap: 45px;
+                        align-items: flex-start;
                     }
 
                     @media only screen and (min-width:769px) and (max-width:992px) {
                         gap: 18px;
+                        align-items: flex-start;
                     }
 
                 }
@@ -105,6 +112,9 @@ header {
 
     @media only screen and (min-width:481px) and (max-width:768px) {
        display: none;
+    }
+    @media only screen and (min-width:769px) and (max-width:992px) {
+        width: 16%;
     }
 }
 .navbar-toggler-icon {
@@ -226,7 +236,7 @@ header {
     }
 
     @media only screen and (min-width:361px) and (max-width:480px) {
-        height: 10vh;
+        height: 14vh;
     }
 
     @media only screen and (min-width:481px) and (max-width:768px) {
@@ -249,6 +259,7 @@ header {
         @media only screen and (max-width:360px) {
             justify-content: center;
             font-size: 1rem;
+            line-height: 30px;
         }
 
         @media only screen and (min-width:361px) and (max-width:480px) {
@@ -261,7 +272,11 @@ header {
 
         p {
             margin: 0;
-            font-size: 2.3rem;
+            font-size: 1rem;
+
+            @media only screen and (min-width:769px) and (max-width:992px) {
+                font-size: 2rem;
+            }
         }
 
         ul {
@@ -384,9 +399,12 @@ header {
     }
 
     @media only screen and (min-width:361px) and (max-width:480px) {
-        grid-template-rows: 70vh auto;
+        grid-template-rows: 100vh;
     }
 
+    @media only screen and (min-width:361px) and (max-width:480px) {
+        grid-template-rows: 100vh;
+    }
     .fotitos img {
         width: 100%;
         grid-column: 2 / auto;
@@ -443,8 +461,7 @@ header {
         }
 
         @media only screen and (min-width:769px) and (max-width:992px) {
-            padding-left: 30px;
-            width: 435px;
+            width: 80%;
             grid-column: 1;
             grid-row: 1;
         }
@@ -522,7 +539,7 @@ header {
     }
 
     @media only screen and (min-width:361px) and (max-width:480px) {
-        grid-template-rows: 70vh auto;
+        grid-template-rows: 100vh;
     }
 
     .nos {
@@ -585,7 +602,7 @@ header {
         }
 
         @media only screen and (min-width:769px) and (max-width:992px) {
-            width: 435px;
+            width: 80%;
             grid-column: 2;
             grid-row: 1;
             color: nth($colores , 4);
@@ -661,7 +678,7 @@ header {
     }
 
     @media only screen and (min-width:361px) and (max-width:480px) {
-        grid-template-rows: 70vh auto;
+        grid-template-rows: 100vh;
     }
 
     .zoe {
@@ -726,8 +743,8 @@ header {
         }
 
         @media only screen and (min-width:769px) and (max-width:992px) {
-            padding-left: 30px;
-            width: 435px;
+   
+            width: 80%;
             grid-column: 1;
             grid-row: 1;
         }
@@ -820,7 +837,7 @@ header {
         }
 
         @media only screen and (min-width:769px) and (max-width:992px) {
-            width: 60%;
+            width: 50%;
         }
 
         p {

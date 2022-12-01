@@ -54,17 +54,18 @@ header {
         .collapse{
             .navbar-nav{
                 font-family: "Quicksand", sans-serif;
-                font-weight: 300;
-                padding-top: 10px;
-                align-items: center;
-                gap: 63px;
-                justify-content: center;
-                .logo-a {
-                    width: 16%;
-                    img {
-                        width: 20%
+                    font-weight: 300;
+                    padding-top: 10px;
+                    align-items: center;
+                    gap: 63px;
+                    justify-content: center;
+                    .logo-a {
+                        width: 16%;
+                        img {
+                            width: 55%;
+                            
+                        }
                     }
-                }
                 @media only screen and (max-width:360px) {
                     gap: 0;
                     --bs-nav-link-padding-y: 0.46rem;
@@ -200,7 +201,7 @@ section {
         justify-content: center;
         padding-bottom: 16px;
         display: flex;
-        width: 473px;
+        width: auto;
         height: 40px;
         color: nth($colores, 4);
         font-size: 40px;

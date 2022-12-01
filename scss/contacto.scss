@@ -65,7 +65,7 @@ header {
                         .logo-a {
                             width: 16%;
                             img {
-                                width: 20%;
+                                width: 55%;
                             }
                         }
     @media only screen and (max-width:360px) {
@@ -155,7 +155,7 @@ header {
 
     .mas-info {
         text-align: center;
-        width: 40%;
+        width: 30%;
 
         @media only screen and (min-width:361px) and (max-width:480px) {
             text-align: center;
@@ -178,7 +178,7 @@ header {
 
     .mas-info {
         text-align: center;
-        width: 40%;
+        width: 30%;
 
         p {
             color: nth($colores , 4);

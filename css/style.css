@@ -387,7 +387,7 @@ header .menu .container-fluid .collapse .navbar-nav .logo-a img {
   padding-bottom: 16px;
   display: flex;
   width: 473px;
-  height: 40px;
+  height: 34px;
   color: #EAEAEA;
   font-size: 40px;
   line-height: 40px;
@@ -413,6 +413,7 @@ header .menu .container-fluid .collapse .navbar-nav .logo-a img {
 }
 .contador-lugar .contador p {
   margin: 0;
+  font-size: 2.3rem;
 }
 .contador-lugar .contador ul {
   margin: 0;
@@ -441,56 +442,59 @@ header .menu .container-fluid .collapse .navbar-nav .logo-a img {
   0% {
     margin-top: 0;
   }
-  10% {
+  0% {
     margin-top: 0;
   }
-  20% {
-    margin-top: -30px;
+  10% {
+    margin-top: 0px;
   }
   40% {
     margin-top: -30px;
+  }
+  20% {
+    margin-top: -60px;
+  }
+  50% {
+    margin-top: -90px;
   }
   30% {
-    margin-top: -80px;
+    margin-top: -120px;
   }
-  50% {
-    margin-top: -80px;
+  60% {
+    margin-top: -150px;
   }
   40% {
-    margin-top: -120px;
+    margin-top: -180px;
   }
-  60% {
-    margin-top: -120px;
+  70% {
+    margin-top: -210px;
   }
   50% {
-    margin-top: -160px;
-  }
-  70% {
-    margin-top: -160px;
-  }
-  60% {
-    margin-top: -200px;
-  }
-  90% {
-    margin-top: -200px;
-  }
-  70% {
-    margin-top: -240px;
-  }
-  110% {
     margin-top: -240px;
   }
   80% {
-    margin-top: -280px;
+    margin-top: -270px;
   }
-  130% {
-    margin-top: -280px;
+  60% {
+    margin-top: -300px;
   }
   90% {
-    margin-top: -320px;
+    margin-top: -330px;
   }
-  150% {
-    margin-top: -320px;
+  70% {
+    margin-top: -360px;
+  }
+  90% {
+    margin-top: -390px;
+  }
+  80% {
+    margin-top: -420px;
+  }
+  95% {
+    margin-top: -450px;
+  }
+  90% {
+    margin-top: -480px;
   }
 }
 

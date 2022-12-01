@@ -238,7 +238,7 @@ header {
         padding-bottom: 16px;
         display: flex;
         width: 473px;
-        height: 40px;
+        height: 34px;
         color: nth($colores, 4);
         font-size: 40px;
         line-height: 40px;
@@ -261,6 +261,7 @@ header {
 
         p {
             margin: 0;
+            font-size: 2.3rem;
         }
 
         ul {
@@ -285,76 +286,81 @@ header {
 
             li {
                 @keyframes cambiar {
+
+                    0% {
+                        margin-top: 0;
+                    }
+
                     0% {
                         margin-top: 0;
                     }
 
                     10% {
-                        margin-top: 0;
+                        margin-top: 0px;
                     }
 
-                    20% {
+                    40%{
                         margin-top: -30px;
                     }
 
-                    40% {
-                        margin-top: -30px;
+                    20%{
+                        margin-top: -60px;
+                    }
+
+                    50%{
+                        margin-top: -90px;
                     }
 
                     30% {
-                        margin-top: -80px;
-                    }
-
-                    50% {
-                        margin-top: -80px;
-                    }
-
-                    40% {
                         margin-top: -120px;
                     }
 
                     60% {
-                        margin-top: -120px;
+                        margin-top: -150px;
                     }
 
-                    50% {
-                        margin-top: -160px;
+                    40%{
+                        margin-top: -180px;
                     }
 
-                    70% {
-                        margin-top: -160px;
+                    70%{
+                        margin-top: -210px;
                     }
 
-                    60% {
-                        margin-top: -200px;
-                    }
-
-                    90% {
-                        margin-top: -200px;
-                    }
-
-                    70% {
+                    50%{
                         margin-top: -240px;
                     }
 
-                    110% {
-                        margin-top: -240px;
+                    80%{
+                        margin-top: -270px;
                     }
 
-                    80% {
-                        margin-top: -280px;
+                    60%{
+                        margin-top: -300px;
                     }
 
-                    130% {
-                        margin-top: -280px;
+                    90%{
+                        margin-top: -330px;
                     }
 
-                    90% {
-                        margin-top: -320px;
+                    70%{
+                        margin-top: -360px;
                     }
 
-                    150% {
-                        margin-top: -320px;
+                    90%{
+                        margin-top: -390px;
+                    }
+
+                    80%{
+                        margin-top: -420px;
+                    }
+
+                    95%{
+                        margin-top: -450px;
+                    }
+
+                    90%{
+                        margin-top: -480px;
                     }
                 }
             }
